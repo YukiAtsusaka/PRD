@@ -1,6 +1,7 @@
 # Political Rankings Database (PRD) — Replication Package
 
-This development code is associated with Atsusaka & Singh (2026). Ranking Data in Political Science.
+Atsusaka & Singh (2026). Standardized ranking data from published political
+science studies.
 
 This package reproduces the standardized ranking datasets in `standardized/`
 from the raw replication files in `raw/`, using the scripts in `R/`.
@@ -8,7 +9,7 @@ from the raw replication files in `raw/`, using the scripts in `R/`.
 ## Structure
 
 ```
-code-PRD/
+code-atsusaka-singh-2026/
 ├── R/              # one Standardize_*.R per study + finalize_schema.R
 ├── raw/            # raw replication inputs (one or more per study)
 ├── standardized/   # standardized output CSVs (the database)
@@ -26,7 +27,7 @@ column. Paths are resolved with the `here` package relative to this folder (the
 directory:
 
 ```r
-setwd("path/to/code-PRD")
+setwd("path/to/code-atsusaka-singh-2026")
 # reproduce a single study:
 source("R/Standardize_Costa2020.R")
 # or reproduce everything:
@@ -52,15 +53,4 @@ install.packages(c("dplyr", "tidyr", "stringr", "readr", "here",
 
 R 4.x. `haven` reads Stata (`.dta`) and SPSS (`.sav`); `readxl` reads Excel.
 
-## Known limitations — raw data not redistributable
-
-Two studies' standardized outputs are included in `standardized/`, but their
-raw inputs are **not** in `raw/` (not available for redistribution here), so
-their scripts cannot be re-run without obtaining the original files:
-
-| Study | Script | Missing raw input |
-|-------|--------|-------------------|
-| Doshi, Kelley & Simmons (2019) | `Standardize_Doshi2019.R` | `Doshi2019_WorldBank.dta` (World Bank Ease-of-Doing-Business panel) |
-| Malhotra & Kuo (2008) | `Standardize_MalhotraKuo2008.R`, `Standardize_MalhotraKuo2008_Splits.R` | `Katrina_Blame_Data.sav` (Harvard Dataverse hdl:1902.1/16325) |
-
-All other studies reproduce from the included raw files.
+All studies reproduce from the raw files included in `raw/`.
