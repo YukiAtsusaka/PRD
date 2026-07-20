@@ -1,7 +1,6 @@
 # Political Rankings Database (PRD) — Replication Package
 
-Atsusaka & Singh (2026). Standardized ranking data from published political
-science studies.
+This development code is associated with Atsusaka & Singh (2026). Ranking Data in Political Science.
 
 This package reproduces the standardized ranking datasets in `standardized/`
 from the raw replication files in `raw/`, using the scripts in `R/`.
@@ -9,7 +8,7 @@ from the raw replication files in `raw/`, using the scripts in `R/`.
 ## Structure
 
 ```
-code-atsusaka-singh-2026/
+code-PRD/
 ├── R/              # one Standardize_*.R per study + finalize_schema.R
 ├── raw/            # raw replication inputs (one or more per study)
 ├── standardized/   # standardized output CSVs (the database)
@@ -27,7 +26,7 @@ column. Paths are resolved with the `here` package relative to this folder (the
 directory:
 
 ```r
-setwd("path/to/code-atsusaka-singh-2026")
+setwd("path/to/code-PRD")
 # reproduce a single study:
 source("R/Standardize_Costa2020.R")
 # or reproduce everything:
