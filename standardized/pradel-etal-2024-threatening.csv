@@ -1,0 +1,398 @@
+unit,id,treat,ch_civil,ch_uncivil,ch_intolerant,ch_threatening,treatment,uncivil,intolerant,threatening,pid,rank1,gender,agegroup,racecat_anes,educ,fil_lurker_visit,anger,disgust,pid7
+1,1,0,4,2,1,3,control,100,100,15,Independent,intolerant,Female,Born 1991 or later,White,College,At least once a week but not every day  ,90,70,Independent
+2,2,1,1,4,3,2,threatening,23,54,29,Republican,civil,Female,Born 1991 or later,Black,College,A few times a month  ,43,38,Leaning Republican
+3,3,0,4,2,1,3,control,53,100,52,Democrat,intolerant,Female,Born 1991 or later,Hispanic,High school graduate,Every day  ,36,60,Leaning Democrat
+4,4,1,4,3,1,2,threatening,91,100,100,Democrat,intolerant,Female,Born 1975-1990,Race other/multiple,College,Every day  ,100,100,Leaning Democrat
+5,5,1,4,1,2,3,threatening,80,64,13,Republican,uncivil,Female,Born 1975-1990,White,College,At least once a week but not every day  ,17,7,Leaning Republican
+6,6,0,2,3,1,4,control,25,35,34,Independent,intolerant,Female,Born 1975-1990,Race other/multiple,Postgraduate (e.g. Masters),Every day  ,50,50,Independent
+7,7,0,4,1,2,3,control,97,100,16,Democrat,uncivil,Female,Born 1959-1974,White,High school graduate,Every day  ,100,100,Strong Democrat
+8,8,1,4,3,1,2,threatening,100,100,100,Democrat,intolerant,Female,Born 1959-1974,White,College,Every day  ,71,72,Democrat
+9,9,1,4,3,2,1,threatening,82,100,100,Independent,threatening,Male,Born 1991 or later,Hispanic,High school graduate,A few times a month  ,51,61,Independent
+10,10,0,3,2,1,4,control,36,100,0,Democrat,intolerant,Female,Born 1975-1990,White,High school graduate,Every day  ,40,41,Democrat
+11,11,0,4,1,2,3,control,100,90,86,Democrat,uncivil,Female,Born 1991 or later,White,"High school graduate,College",Every day  ,100,100,Leaning Democrat
+12,12,1,4,2,3,1,threatening,72,91,100,Democrat,threatening,Female,Born 1991 or later,Black,College,Every day  ,27,79,Strong Democrat
+13,13,0,3,2,1,4,control,55,70,0,Independent,intolerant,Male,Born 1991 or later,White,High school graduate,At least once a week but not every day  ,10,5,Independent
+14,14,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Male,Born 1975-1990,White,College,Every day  ,100,100,Democrat
+15,15,0,4,2,1,3,control,90,96,23,Republican,intolerant,Male,Born 1975-1990,White,College,Every day  ,6,6,Leaning Republican
+16,16,0,4,2,1,3,control,67,95,54,Democrat,intolerant,Female,Born 1991 or later,Hispanic,High school graduate,Every day  ,58,66,Leaning Democrat
+17,17,1,4,2,3,1,threatening,71,70,85,Independent,threatening,Male,Born 1991 or later,White,Professional degree,Every day  ,64,69,Independent
+18,18,0,4,2,1,3,control,68,100,59,Democrat,intolerant,Female,Born 1991 or later,White,High school graduate,Every day  ,60,70,Democrat
+19,19,1,4,3,2,1,threatening,75,78,91,Independent,threatening,Male,Born 1975-1990,Black,College,At least once a week but not every day  ,88,100,Independent
+20,20,1,4,3,1,2,threatening,50,100,75,Democrat,intolerant,Female,Born 1959-1974,White,High school graduate,At least once a week but not every day  ,0,0,Strong Democrat
+21,21,0,4,2,1,3,control,90,75,0,Independent,intolerant,Male,Born 1975-1990,White,High school graduate,Every day  ,0,0,Independent
+22,22,0,3,2,1,4,control,51,83,5,Democrat,intolerant,Female,Born 1975-1990,White,High school graduate,At least once a week but not every day  ,61,100,Leaning Democrat
+23,23,1,4,2,3,1,threatening,100,100,100,Independent,threatening,Male,Born 1991 or later,Race other/multiple,College,At least once a week but not every day  ,60,60,Independent
+24,24,1,3,2,1,4,threatening,79,71,69,Republican,intolerant,Male,Born 1991 or later,White,High school graduate,Every day  ,70,28,Leaning Republican
+25,25,0,4,2,1,3,control,65,100,28,Democrat,intolerant,Female,Born 1991 or later,White,High school graduate,Every day  ,89,96,Democrat
+26,26,1,4,3,2,1,threatening,100,100,100,Republican,threatening,Male,Born 1991 or later,White,College,Every day  ,18,93,Leaning Republican
+27,27,0,3,1,2,4,control,93,100,33,Democrat,uncivil,Male,Born 1959-1974,White,PhD,Every day  ,68,86,Strong Democrat
+28,28,1,4,3,2,1,threatening,55,90,100,Democrat,threatening,Male,Born 1991 or later,White,High school graduate,Every day  ,39,55,Leaning Democrat
+29,29,0,4,2,1,3,control,75,100,0,Democrat,intolerant,Male,Born 1975-1990,White,"College,Postgraduate (e.g. Masters)",Every day  ,90,100,Democrat
+30,30,0,3,1,2,4,control,24,93,20,Democrat,uncivil,Male,Born 1975-1990,Race other/multiple,College,Every day  ,62,70,Leaning Democrat
+31,31,1,4,1,2,3,threatening,100,100,80,Independent,uncivil,Male,Born 1975-1990,White,College,Every day  ,70,100,Independent
+32,32,0,3,2,1,4,control,50,96,0,Independent,intolerant,Female,Born 1991 or later,Black,Postgraduate (e.g. Masters),Every day  ,58,90,Independent
+33,33,1,4,1,2,3,threatening,100,100,52,Independent,uncivil,Male,Born 1975-1990,White,Postgraduate (e.g. Masters),Every day  ,81,100,Independent
+34,34,0,4,1,2,3,control,100,100,0,Democrat,uncivil,Female,Born 1991 or later,White,High school graduate,Every day  ,100,100,Strong Democrat
+35,35,1,1,3,4,2,threatening,82,86,75,Democrat,civil,Male,Born 1991 or later,White,College,Every day  ,79,97,Democrat
+36,36,1,4,3,2,1,threatening,85,100,75,Democrat,threatening,Male,Born 1975-1990,Hispanic,High school graduate,Every day  ,75,80,Democrat
+37,37,1,4,2,3,1,threatening,70,75,89,Democrat,threatening,Female,Born 1975-1990,White,College,Every day  ,27,66,Leaning Democrat
+38,38,1,4,3,1,2,threatening,77,79,90,Republican,intolerant,Female,Born 1975-1990,White,College,Every day  ,72,69,Strong Republican
+39,39,0,3,1,2,4,control,70,85,35,Democrat,uncivil,Male,Born 1975-1990,Black,High school graduate,Every day  ,30,15,Leaning Democrat
+40,40,0,3,2,1,4,control,65,85,20,Democrat,intolerant,Male,Born 1975-1990,White,College,Every day  ,55,90,Leaning Democrat
+41,41,0,1,3,2,4,control,35,51,0,Republican,civil,Female,Born 1975-1990,White,College,Less often,0,0,Strong Republican
+42,42,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Male,Born 1991 or later,White,Postgraduate (e.g. Masters),Every day  ,100,100,Strong Democrat
+43,43,1,4,2,3,1,threatening,90,75,38,Democrat,threatening,Female,Born 1991 or later,Black,College,At least once a week but not every day  ,24,35,Democrat
+44,44,0,4,2,1,3,control,100,100,0,Republican,intolerant,Female,Born 1975-1990,Hispanic,Postgraduate (e.g. Masters),Every day  ,0,0,Leaning Republican
+45,45,1,4,3,2,1,threatening,100,100,100,Independent,threatening,Male,Born 1975-1990,White,High school graduate,Every day  ,29,66,Independent
+46,46,1,4,3,1,2,threatening,90,100,95,Democrat,intolerant,Male,Born 1991 or later,White,High school graduate,Every day  ,80,100,Leaning Democrat
+47,47,0,4,2,1,3,control,80,100,34,Democrat,intolerant,Male,Born 1975-1990,White,Postgraduate (e.g. Masters),Every day  ,30,50,Strong Democrat
+48,48,1,4,2,3,1,threatening,100,100,100,Republican,threatening,Female,Born 1959-1974,White,High school graduate,Every day  ,51,51,Leaning Republican
+49,49,0,1,3,2,4,control,20,50,0,Independent,civil,Male,Born 1975-1990,White,High school graduate,At least once a week but not every day  ,0,0,Independent
+50,50,0,2,4,1,3,control,4,64,2,Independent,intolerant,Male,Born 1975-1990,Black,College,Every day  ,20,19,Independent
+51,51,1,4,3,2,1,threatening,92,100,98,Democrat,threatening,Female,Born 1991 or later,Race other/multiple,High school graduate,At least once a week but not every day  ,61,72,Democrat
+52,52,0,1,3,2,4,control,50,70,15,Democrat,civil,Other,Born 1991 or later,White,High school graduate,At least once a week but not every day  ,40,55,Leaning Democrat
+53,53,0,3,2,1,4,control,100,100,11,Democrat,intolerant,Male,Born 1991 or later,White,College,At least once a week but not every day  ,60,75,Strong Democrat
+54,54,1,4,2,3,1,threatening,75,74,100,Independent,threatening,Male,Born 1991 or later,Hispanic,High school graduate,At least once a week but not every day  ,29,72,Independent
+55,55,1,4,2,3,1,threatening,100,100,92,Democrat,threatening,Male,Born 1975-1990,White,High school graduate,Every day  ,100,100,Strong Democrat
+56,56,0,3,2,1,4,control,59,89,0,Democrat,intolerant,Male,Born 1991 or later,White,High school graduate,At least once a week but not every day  ,8,19,Democrat
+57,57,0,4,2,1,3,control,89,90,27,Independent,intolerant,Other,Born 1991 or later,White,High school graduate,Every day  ,96,100,Independent
+58,58,1,4,3,2,1,threatening,91,96,99,Democrat,threatening,Male,Born 1991 or later,Black,High school graduate,Every day  ,92,93,Leaning Democrat
+59,59,0,4,2,1,3,control,90,100,35,Independent,intolerant,Female,Born 1991 or later,Race other/multiple,Postgraduate (e.g. Masters),Every day  ,75,100,Independent
+60,60,1,4,3,2,1,threatening,92,86,97,Democrat,threatening,Male,Born 1991 or later,Hispanic,High school graduate,Less often,66,72,Democrat
+61,61,0,3,1,2,4,control,68,76,0,Democrat,uncivil,Male,Born 1991 or later,Race other/multiple,College,At least once a week but not every day  ,37,55,Democrat
+62,62,1,4,1,3,2,threatening,93,92,94,Democrat,uncivil,Female,Born 1943-1958,White,High school graduate,Every day  ,81,84,Democrat
+63,63,1,4,3,2,1,threatening,100,96,100,Independent,threatening,Female,Born 1975-1990,White,College,At least once a week but not every day  ,98,88,Independent
+64,64,1,4,3,2,1,threatening,99,100,100,Democrat,threatening,Female,Born 1975-1990,Black,Professional degree,Every day  ,88,88,Democrat
+65,65,0,1,2,3,4,control,63,70,0,Republican,civil,Male,Born 1975-1990,White,High school graduate,At least once a week but not every day  ,0,0,Republican
+66,66,1,4,2,3,1,threatening,100,100,100,Republican,threatening,Female,Born 1975-1990,White,High school graduate,Every day  ,100,100,Republican
+67,67,0,4,2,1,3,control,100,98,58,Democrat,intolerant,Female,Born 1991 or later,White,College,Every day  ,90,99,Democrat
+68,68,1,4,1,2,3,threatening,100,59,19,Independent,uncivil,Female,Born 1975-1990,White,High school graduate,Every day  ,30,32,Independent
+69,69,1,4,2,3,1,threatening,100,100,100,Independent,threatening,Male,Born 1991 or later,White,College,Every day  ,0,14,Independent
+70,70,0,3,2,1,4,control,80,90,15,Independent,intolerant,Female,Born 1991 or later,White,College,Every day  ,70,100,Independent
+71,71,1,4,2,1,3,threatening,100,100,90,Independent,intolerant,Male,Born 1975-1990,White,College,Every day  ,81,85,Independent
+72,72,0,4,1,2,3,control,75,76,11,Democrat,uncivil,Male,Born 1975-1990,White,College,At least once a week but not every day  ,72,73,Strong Democrat
+73,73,0,2,3,1,4,control,14,88,2,Republican,intolerant,Male,Born 1975-1990,White,College,Every day  ,54,56,Leaning Republican
+74,74,0,4,2,1,3,control,68,67,49,Independent,intolerant,Male,Born 1975-1990,Race other/multiple,College,Every day  ,51,52,Independent
+75,75,1,4,3,2,1,threatening,81,86,85,Democrat,threatening,Female,Born 1991 or later,White,High school graduate,Every day  ,57,85,Democrat
+76,76,1,4,2,1,3,threatening,90,84,64,Democrat,intolerant,Male,Born 1991 or later,Hispanic,Postgraduate (e.g. Masters),Every day  ,87,93,Democrat
+77,77,0,4,2,1,3,control,100,10,19,Republican,intolerant,Male,Born 1975-1990,White,College,At least once a week but not every day  ,8,16,Leaning Republican
+78,78,0,4,2,1,3,control,74,100,15,Democrat,intolerant,Male,Born 1975-1990,Race other/multiple,College,Every day  ,5,29,Leaning Democrat
+79,79,1,4,3,1,2,threatening,90,100,98,Democrat,intolerant,Female,Born 1975-1990,White,College,Every day  ,100,100,Leaning Democrat
+80,80,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Female,Born 1991 or later,White,High school graduate,Every day  ,100,100,Democrat
+81,81,1,3,4,1,2,threatening,49,49,51,Democrat,intolerant,Male,Born 1975-1990,White,College,Less often,51,50,Strong Democrat
+82,82,0,1,3,2,4,control,30,34,6,Republican,civil,Male,Born 1991 or later,White,College,Every day  ,20,9,Leaning Republican
+83,83,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Male,Born 1991 or later,White,College,Every day  ,100,100,Strong Democrat
+84,84,0,1,2,3,4,control,28,41,5,Independent,civil,Male,Born 1975-1990,Black,High school graduate,Every day  ,9,1,Independent
+85,85,0,4,2,1,3,control,100,100,20,Democrat,intolerant,Female,Born 1991 or later,Hispanic,High school graduate,Every day  ,60,70,Leaning Democrat
+86,86,0,3,2,1,4,control,75,100,0,Democrat,intolerant,Male,Born 1975-1990,White,Postgraduate (e.g. Masters),At least once a week but not every day  ,0,20,Democrat
+87,87,1,4,2,1,3,threatening,65,65,55,Republican,intolerant,Male,Born 1991 or later,White,Professional degree,Every day  ,36,21,Republican
+88,88,1,4,2,3,1,threatening,81,84,100,Democrat,threatening,Male,Born 1975-1990,White,College,Every day  ,80,100,Democrat
+89,89,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Female,Born 1991 or later,White,College,Every day  ,80,100,Democrat
+90,90,0,4,2,1,3,control,72,86,52,Republican,intolerant,Male,Born 1975-1990,Race other/multiple,College,Every day  ,76,79,Leaning Republican
+91,91,0,4,2,1,3,control,100,100,82,Democrat,intolerant,Female,Born 1975-1990,White,College,Every day  ,59,86,Strong Democrat
+92,92,0,3,2,1,4,control,90,100,3,Independent,intolerant,Other,Born 1991 or later,White,"High school graduate,College",Every day  ,72,88,Independent
+93,93,1,4,3,2,1,threatening,100,100,100,Independent,threatening,Male,Born 1959-1974,White,College,At least once a week but not every day  ,50,75,Independent
+94,94,0,1,2,3,4,control,44,0,0,Republican,civil,Female,Born 1975-1990,White,College,Every day  ,44,34,Republican
+95,95,0,1,2,3,4,control,0,0,0,Republican,civil,Female,Born 1991 or later,White,Postgraduate (e.g. Masters),Every day  ,0,0,Leaning Republican
+96,96,1,4,3,2,1,threatening,59,64,81,Democrat,threatening,Other,Born 1975-1990,Race other/multiple,College,Every day  ,61,60,Leaning Democrat
+97,97,1,4,3,1,2,threatening,90,100,85,Republican,intolerant,Male,Born 1991 or later,White,High school graduate,Every day  ,100,100,Leaning Republican
+98,98,1,4,3,2,1,threatening,100,100,100,Independent,threatening,Male,Born 1991 or later,White,High school graduate,Every day  ,60,100,Independent
+99,99,0,4,2,1,3,control,62,100,0,Democrat,intolerant,Female,Born 1975-1990,White,College,Every day  ,41,100,Leaning Democrat
+100,100,0,3,2,1,4,control,85,100,10,Democrat,intolerant,Female,Born 1991 or later,White,College,Every day  ,76,80,Strong Democrat
+101,101,1,4,2,3,1,threatening,100,100,100,Independent,threatening,Female,Born 1991 or later,White,High school graduate,At least once a week but not every day  ,73,100,Independent
+102,102,1,4,3,1,2,threatening,69,93,87,Democrat,intolerant,Male,Born 1975-1990,White,College,At least once a week but not every day  ,65,100,Democrat
+103,103,0,3,2,1,4,control,60,100,30,Democrat,intolerant,Male,Born 1991 or later,White,High school graduate,Every day  ,61,100,Democrat
+104,104,0,3,2,1,4,control,71,100,30,Democrat,intolerant,Female,Born 1975-1990,White,Less than high school,Every day  ,100,100,Strong Democrat
+105,105,1,4,3,1,2,threatening,71,100,88,Democrat,intolerant,Male,Born 1975-1990,White,College,At least once a week but not every day  ,87,100,Democrat
+106,106,0,1,3,2,4,control,8,10,3,Independent,civil,Female,Born 1943-1958,White,College,Every day  ,4,10,Independent
+107,107,1,4,3,2,1,threatening,61,78,100,Republican,threatening,Female,Born 1991 or later,White,College,Every day  ,61,72,Leaning Republican
+108,108,0,4,1,2,3,control,92,74,51,Democrat,uncivil,Male,Born 1991 or later,Race other/multiple,College,Every day  ,95,96,Democrat
+109,109,1,4,2,3,1,threatening,100,100,100,Democrat,threatening,Female,Born 1975-1990,White,Postgraduate (e.g. Masters),Every day  ,100,82,Democrat
+110,110,1,4,2,3,1,threatening,94,85,100,Democrat,threatening,Male,Born 1991 or later,White,High school graduate,Every day  ,95,94,Democrat
+111,111,0,4,2,1,3,control,65,75,15,Republican,intolerant,Male,Born 1991 or later,Hispanic,High school graduate,Every day  ,0,0,Leaning Republican
+112,112,1,4,3,2,1,threatening,95,100,100,Independent,threatening,Male,Born 1943-1958,White,College,Every day  ,100,95,Independent
+113,113,0,4,1,2,3,control,77,69,38,Democrat,uncivil,Male,Born 1975-1990,Race other/multiple,PhD,Every day  ,61,80,Leaning Democrat
+114,114,1,4,3,2,1,threatening,100,100,95,Democrat,threatening,Male,Born 1943-1958,White,Postgraduate (e.g. Masters),At least once a week but not every day  ,100,100,Leaning Democrat
+115,115,1,4,1,2,3,threatening,90,100,70,Republican,uncivil,Male,Born 1991 or later,White,College,Every day  ,71,80,Strong Republican
+116,116,1,4,3,2,1,threatening,100,100,100,Independent,threatening,Male,Born 1975-1990,Race other/multiple,Postgraduate (e.g. Masters),Every day  ,100,100,Independent
+117,117,0,3,2,1,4,control,50,85,0,Democrat,intolerant,Female,Born 1959-1974,White,College,Every day  ,17,65,Leaning Democrat
+118,118,0,3,1,2,4,control,100,98,8,Democrat,uncivil,Female,Born 1943-1958,White,Postgraduate (e.g. Masters),At least once a week but not every day  ,0,86,Strong Democrat
+119,119,0,3,2,1,4,control,51,100,11,Independent,intolerant,Female,Born 1975-1990,White,High school graduate,Every day  ,91,100,Independent
+120,120,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Male,Born 1959-1974,White,College,Every day  ,100,100,Democrat
+121,121,0,3,2,1,4,control,81,100,0,Democrat,intolerant,Male,Born 1991 or later,White,High school graduate,Every day  ,100,100,Strong Democrat
+122,122,0,3,2,1,4,control,97,97,0,Democrat,intolerant,Male,Born 1943-1958,White,College,Every day  ,91,100,Democrat
+123,123,0,4,1,3,2,control,100,50,75,Democrat,uncivil,Female,Born 1991 or later,Hispanic,High school graduate,Every day  ,80,100,Democrat
+124,124,1,4,3,2,1,threatening,95,100,95,Democrat,threatening,Male,Born 1975-1990,White,College,Every day  ,80,90,Leaning Democrat
+125,125,1,4,3,1,2,threatening,51,51,56,Republican,intolerant,Female,Born 1959-1974,White,High school graduate,Every day  ,0,0,Republican
+126,126,1,4,3,2,1,threatening,83,87,94,Democrat,threatening,Female,Born 1991 or later,White,College,Every day  ,72,80,Leaning Democrat
+127,127,0,2,3,1,4,control,31,94,4,Democrat,intolerant,Female,Born 1991 or later,Black,High school graduate,Every day  ,55,86,Strong Democrat
+128,128,0,4,2,1,3,control,90,100,0,Independent,intolerant,Male,Born 1975-1990,White,College,Every day  ,70,80,Independent
+129,129,0,4,2,1,3,control,90,100,22,Democrat,intolerant,Female,Born 1975-1990,White,High school graduate,Every day  ,92,100,Strong Democrat
+130,130,1,4,1,3,2,threatening,95,99,84,Democrat,uncivil,Female,Born 1991 or later,White,College,Every day  ,57,80,Democrat
+131,131,0,4,1,2,3,control,71,70,36,Democrat,uncivil,Other,Born 1991 or later,White,Professional degree,Every day  ,68,60,Strong Democrat
+132,132,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Male,Born 1991 or later,Hispanic,College,Every day  ,80,100,Strong Democrat
+133,133,1,4,3,2,1,threatening,100,100,100,Independent,threatening,Male,Born 1975-1990,Race other/multiple,Postgraduate (e.g. Masters),Less often,100,100,Independent
+134,134,0,1,3,2,4,control,0,5,0,Democrat,civil,Male,Born 1975-1990,Hispanic,High school graduate,Every day  ,0,0,Democrat
+135,135,1,4,2,1,3,threatening,100,76,37,Democrat,intolerant,Male,Born 1975-1990,White,College,At least once a week but not every day  ,65,100,Strong Democrat
+136,136,1,4,2,1,3,threatening,75,80,31,Democrat,intolerant,Female,Born 1991 or later,Race other/multiple,Postgraduate (e.g. Masters),At least once a week but not every day  ,70,60,Strong Democrat
+137,137,0,1,2,4,3,control,0,0,0,Independent,civil,Male,Born 1975-1990,White,College,Every day  ,0,0,Independent
+138,138,1,4,3,1,2,threatening,77,99,87,Democrat,intolerant,Female,Born 1991 or later,Hispanic,College,Every day  ,67,72,Strong Democrat
+139,139,0,1,2,3,4,control,0,0,0,Republican,civil,Male,Born 1991 or later,White,College,Every day  ,0,0,Strong Republican
+140,140,0,2,3,1,4,control,4,94,26,Democrat,intolerant,Male,Born 1975-1990,White,Postgraduate (e.g. Masters),Every day  ,51,60,Leaning Democrat
+141,141,1,4,3,2,1,threatening,100,100,100,Independent,threatening,Male,Born 1975-1990,Race other/multiple,College,Every day  ,100,100,Independent
+142,142,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Female,Born 1975-1990,White,PhD,Every day  ,71,95,Strong Democrat
+143,143,0,4,2,1,3,control,100,100,65,Democrat,intolerant,Female,Born 1975-1990,White,College,Every day  ,71,77,Strong Democrat
+144,144,0,4,2,1,3,control,66,100,76,Democrat,intolerant,Female,Born 1975-1990,White,College,At least once a week but not every day  ,62,87,Democrat
+145,145,0,4,2,1,3,control,85,77,25,Democrat,intolerant,Female,Born 1991 or later,White,College,Every day  ,75,75,Strong Democrat
+146,146,1,4,3,2,1,threatening,94,74,100,Republican,threatening,Male,Born 1975-1990,White,College,Every day  ,66,100,Leaning Republican
+147,147,1,4,3,2,1,threatening,100,100,100,Independent,threatening,Male,Born 1991 or later,White,Professional degree,At least once a week but not every day  ,100,100,Independent
+148,148,0,1,3,2,4,control,30,50,0,Independent,civil,Male,Born 1959-1974,White,Postgraduate (e.g. Masters),Less often,19,0,Independent
+149,149,0,3,2,1,4,control,42,97,22,Democrat,intolerant,Female,Born 1943-1958,White,High school graduate,Every day  ,33,78,Strong Democrat
+150,150,0,1,3,2,4,control,0,20,0,Democrat,civil,Female,Born 1975-1990,Black,College,Every day  ,10,9,Democrat
+151,151,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Other,Born 1975-1990,White,College,Every day  ,100,100,Strong Democrat
+152,152,1,4,2,3,1,threatening,100,100,100,Independent,threatening,Other,Born 1975-1990,White,College,Every day  ,100,100,Independent
+153,153,1,4,3,2,1,threatening,90,90,100,Democrat,threatening,Female,Born 1975-1990,White,Postgraduate (e.g. Masters),Every day  ,80,100,Democrat
+154,154,0,1,2,3,4,control,0,0,0,Republican,civil,Male,Born 1991 or later,Race other/multiple,Postgraduate (e.g. Masters),At least once a week but not every day  ,0,0,Strong Republican
+155,155,1,4,3,2,1,threatening,90,100,100,Democrat,threatening,Male,Born 1991 or later,White,College,Every day  ,93,98,Strong Democrat
+156,156,0,3,2,1,4,control,91,81,19,Independent,intolerant,Female,Born 1991 or later,Race other/multiple,College,Every day  ,56,83,Independent
+157,157,1,4,2,1,3,threatening,100,100,0,Democrat,intolerant,Male,Born 1991 or later,White,High school graduate,Every day  ,60,100,Strong Democrat
+158,158,0,3,2,1,4,control,20,81,9,Democrat,intolerant,Female,Born 1991 or later,White,College,Every day  ,64,75,Strong Democrat
+159,159,1,4,3,2,1,threatening,86,78,100,Independent,threatening,Female,Born 1991 or later,Black,High school graduate,Every day  ,20,5,Independent
+160,160,0,4,1,3,2,control,100,86,94,Democrat,uncivil,Female,Born 1991 or later,Hispanic,College,Every day  ,100,100,Democrat
+161,161,0,3,1,2,4,control,91,88,11,Democrat,uncivil,Female,Born 1991 or later,White,College,Every day  ,72,84,Strong Democrat
+162,162,1,3,2,1,4,threatening,54,50,43,Independent,intolerant,Female,Born 1975-1990,Race other/multiple,High school graduate,Every day  ,18,45,Independent
+163,163,0,3,2,1,4,control,68,100,1,Democrat,intolerant,Female,Born 1991 or later,Black,College,Every day  ,57,74,Leaning Democrat
+164,164,1,4,3,2,1,threatening,75,80,100,Democrat,threatening,Female,Born 1991 or later,Hispanic,College,Every day  ,100,100,Democrat
+165,165,1,4,1,3,2,threatening,51,51,52,Republican,uncivil,Female,Born 1991 or later,White,Postgraduate (e.g. Masters),Every day  ,51,51,Leaning Republican
+166,166,0,3,2,1,4,control,51,73,0,Democrat,intolerant,Male,Born 1991 or later,Hispanic,High school graduate,Every day  ,15,35,Leaning Democrat
+167,167,0,4,1,2,3,control,91,77,29,Democrat,uncivil,Male,Born 1991 or later,Black,College,Every day  ,91,100,Democrat
+168,168,0,3,2,1,4,control,50,100,0,Democrat,intolerant,Female,Born 1975-1990,White,High school graduate,Every day  ,100,100,Strong Democrat
+169,169,1,4,2,3,1,threatening,100,100,100,Independent,threatening,Female,Born 1991 or later,White,College,Every day  ,100,0,Independent
+170,170,1,4,3,2,1,threatening,90,90,100,Democrat,threatening,Male,Born 1943-1958,White,College,Every day  ,60,70,Leaning Democrat
+171,171,0,4,1,2,3,control,100,100,10,Democrat,uncivil,Male,Born 1991 or later,Black,High school graduate,Every day  ,30,20,Leaning Democrat
+172,172,1,4,3,1,2,threatening,100,100,100,Democrat,intolerant,Female,Born 1991 or later,Race other/multiple,High school graduate,Every day  ,100,100,Strong Democrat
+173,173,0,4,2,1,3,control,76,100,0,Democrat,intolerant,Female,Born 1991 or later,Hispanic,College,Every day  ,19,59,Leaning Democrat
+174,174,1,4,1,3,2,threatening,100,95,100,Democrat,uncivil,Male,Born 1991 or later,White,College,At least once a week but not every day  ,79,100,Democrat
+175,175,1,4,3,2,1,threatening,81,88,100,Democrat,threatening,Male,Born 1991 or later,White,College,Every day  ,77,88,Democrat
+176,176,0,4,2,1,3,control,81,100,29,Independent,intolerant,Female,Born 1991 or later,Hispanic,"High school graduate,College",Every day  ,100,82,Independent
+177,177,1,4,1,3,2,threatening,100,100,100,Republican,uncivil,Female,Born 1991 or later,White,College,Every day  ,50,50,Strong Republican
+178,178,0,2,3,1,4,control,20,90,9,Democrat,intolerant,Male,Born 1991 or later,White,High school graduate,Every day  ,80,100,Leaning Democrat
+179,179,1,4,1,2,3,threatening,98,83,39,Democrat,uncivil,Male,Born 1991 or later,Race other/multiple,College,Every day  ,62,87,Leaning Democrat
+180,180,0,3,1,2,4,control,70,60,5,Republican,uncivil,Female,Born 1959-1974,White,High school graduate,Every day  ,25,10,Leaning Republican
+181,181,0,4,1,2,3,control,100,80,60,Independent,uncivil,Male,Born 1991 or later,Hispanic,High school graduate,Every day  ,84,86,Independent
+182,182,1,4,3,2,1,threatening,94,90,100,Democrat,threatening,Other,Born 1991 or later,Black,College,Every day  ,95,97,Democrat
+183,183,1,4,2,3,1,threatening,100,100,100,Independent,threatening,Male,Born 1991 or later,White,High school graduate,Less often,100,100,Independent
+184,184,0,4,2,1,3,control,70,55,35,Republican,intolerant,Male,Born 1991 or later,White,High school graduate,Every day  ,0,50,Republican
+185,185,1,4,3,2,1,threatening,80,85,70,Democrat,threatening,Female,Born 1975-1990,White,College,At least once a week but not every day  ,70,80,Leaning Democrat
+186,186,0,4,1,2,3,control,65,63,38,Independent,uncivil,Male,Born 1975-1990,White,High school graduate,Every day  ,30,33,Independent
+187,187,1,4,3,2,1,threatening,93,87,96,Democrat,threatening,Male,Born 1975-1990,Race other/multiple,College,Every day  ,16,62,Strong Democrat
+188,188,0,4,2,1,3,control,51,60,51,Independent,intolerant,Male,Born 1975-1990,Race other/multiple,Professional degree,Every day  ,37,30,Independent
+189,189,0,4,2,1,3,control,75,90,37,Democrat,intolerant,Female,Born 1991 or later,White,Postgraduate (e.g. Masters),Every day  ,60,81,Strong Democrat
+190,190,1,4,3,2,1,threatening,75,100,100,Democrat,threatening,Female,Born 1991 or later,White,College,Every day  ,100,100,Leaning Democrat
+191,191,0,1,4,3,2,control,20,37,50,Republican,civil,Male,Born 1959-1974,Race other/multiple,Postgraduate (e.g. Masters),Every day  ,60,51,Leaning Republican
+192,192,1,4,3,1,2,threatening,99,100,97,Independent,intolerant,Male,Born 1991 or later,White,College,At least once a week but not every day  ,86,82,Independent
+193,193,1,4,3,2,1,threatening,65,75,90,Democrat,threatening,Female,Born 1991 or later,Hispanic,College,Every day  ,90,90,Democrat
+194,194,0,4,3,1,2,control,100,55,84,Independent,intolerant,Female,Born 1991 or later,Hispanic,College,Every day  ,58,100,Independent
+195,195,0,4,2,1,3,control,70,91,27,Democrat,intolerant,Female,Born 1991 or later,White,College,Every day  ,52,62,Leaning Democrat
+196,196,0,2,3,1,4,control,29,80,5,Independent,intolerant,Male,Born 1991 or later,Black,College,Every day  ,0,0,Independent
+197,197,1,4,1,3,2,threatening,82,65,64,Republican,uncivil,Female,Born 1975-1990,White,College,Every day  ,54,65,Leaning Republican
+198,198,0,4,1,2,3,control,75,70,25,Independent,uncivil,Male,Born 1991 or later,White,Less than high school,At least once a week but not every day  ,0,0,Independent
+199,199,1,4,2,1,3,threatening,100,100,90,Democrat,intolerant,Female,Born 1991 or later,White,College,Every day  ,100,100,Democrat
+200,200,1,4,2,3,1,threatening,100,100,100,Democrat,threatening,Female,Born 1959-1974,White,High school graduate,Every day  ,10,100,Strong Democrat
+201,201,0,2,3,1,4,control,35,79,5,Democrat,intolerant,Male,Born 1991 or later,Race other/multiple,College,Every day  ,8,73,Leaning Democrat
+202,202,1,4,2,1,3,threatening,75,75,60,Democrat,intolerant,Male,Born 1991 or later,White,High school graduate,Every day  ,30,70,Democrat
+203,203,0,4,2,1,3,control,65,100,10,Democrat,intolerant,Male,Born 1975-1990,White,Postgraduate (e.g. Masters),A few times a month  ,60,75,Strong Democrat
+204,204,0,3,2,1,4,control,72,91,16,Democrat,intolerant,Female,Born 1975-1990,Race other/multiple,Professional degree,Every day  ,70,90,Democrat
+205,205,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Female,Born 1975-1990,Black,College,Every day  ,100,90,Leaning Democrat
+206,206,1,4,3,2,1,threatening,99,97,99,Republican,threatening,Female,Born 1975-1990,Race other/multiple,High school graduate,Every day  ,98,79,Strong Republican
+207,207,0,2,3,1,4,control,30,90,0,Independent,intolerant,Male,Born 1991 or later,White,College,Every day  ,69,40,Independent
+208,208,0,1,3,2,4,control,54,30,12,Independent,civil,Male,Born 1975-1990,White,Professional degree,Every day  ,5,14,Independent
+209,209,1,4,2,1,3,threatening,92,100,69,Democrat,intolerant,Male,Born 1975-1990,Race other/multiple,PhD,Every day  ,61,79,Leaning Democrat
+210,210,1,4,3,2,1,threatening,100,85,95,Democrat,threatening,Female,Born 1975-1990,White,High school graduate,Every day  ,88,98,Strong Democrat
+211,211,0,1,2,3,4,control,0,0,0,Independent,civil,Male,Born 1959-1974,White,College,Every day  ,0,0,Independent
+212,212,1,4,3,2,1,threatening,88,100,100,Democrat,threatening,Male,Born 1975-1990,Race other/multiple,Postgraduate (e.g. Masters),Every day  ,0,0,Leaning Democrat
+213,213,0,4,2,1,3,control,57,93,0,Democrat,intolerant,Female,Born 1975-1990,White,High school graduate,At least once a week but not every day  ,78,100,Democrat
+214,214,0,4,2,1,3,control,100,100,23,Democrat,intolerant,Female,Born 1959-1974,White,High school graduate,Every day  ,100,100,Strong Democrat
+215,215,1,4,3,2,1,threatening,82,100,100,Democrat,threatening,Female,Born 1959-1974,Hispanic,College,Every day  ,100,100,Strong Democrat
+216,216,1,4,1,2,3,threatening,94,72,47,Independent,uncivil,Male,Born 1991 or later,White,High school graduate,Every day  ,0,18,Independent
+217,217,0,4,1,2,3,control,80,75,40,Democrat,uncivil,Female,Born 1991 or later,Race other/multiple,College,Every day  ,70,70,Leaning Democrat
+218,218,0,4,2,1,3,control,58,91,25,Independent,intolerant,Female,Born 1991 or later,White,High school graduate,Every day  ,55,84,Independent
+219,219,1,4,3,1,2,threatening,100,100,100,Democrat,intolerant,Female,Born 1975-1990,White,College,Every day  ,91,100,Leaning Democrat
+220,220,0,1,2,3,4,control,15,26,0,Republican,civil,Female,Born 1991 or later,White,College,At least once a week but not every day  ,0,42,Republican
+221,221,0,3,2,1,4,control,50,75,0,Democrat,intolerant,Male,Born 1975-1990,White,Postgraduate (e.g. Masters),At least once a week but not every day  ,70,80,Democrat
+222,222,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Female,Born 1975-1990,White,College,Every day  ,82,94,Strong Democrat
+223,223,1,2,1,4,3,threatening,37,36,21,Democrat,uncivil,Male,Born 1991 or later,Black,College,Every day  ,11,10,Democrat
+224,224,0,4,1,2,3,control,100,100,51,Independent,uncivil,Female,Born 1975-1990,White,College,Every day  ,100,81,Independent
+225,225,1,4,3,2,1,threatening,87,100,100,Democrat,threatening,Female,Born 1959-1974,White,Professional degree,At least once a week but not every day  ,60,100,Strong Democrat
+226,226,0,4,2,1,3,control,50,85,64,Democrat,intolerant,Male,Born 1991 or later,White,High school graduate,Every day  ,26,8,Democrat
+227,227,1,4,2,3,1,threatening,85,87,85,Independent,threatening,Male,Born 1975-1990,Black,College,At least once a week but not every day  ,12,36,Independent
+228,228,1,4,2,3,1,threatening,100,90,88,Republican,threatening,Female,Born 1991 or later,White,High school graduate,Every day  ,0,50,Strong Republican
+229,229,0,2,3,1,4,control,24,77,34,Independent,intolerant,Male,Born 1959-1974,White,College,A few times a month  ,32,62,Independent
+230,230,1,4,3,2,1,threatening,87,97,82,Democrat,threatening,Female,Born 1991 or later,White,College,Every day  ,63,67,Democrat
+231,231,0,4,2,1,3,control,100,100,10,Democrat,intolerant,Female,Born 1959-1974,Race other/multiple,College,A few times a month  ,100,90,Democrat
+232,232,1,3,1,2,4,threatening,70,40,30,Independent,uncivil,Male,Born 1975-1990,White,High school graduate,Every day  ,0,0,Independent
+233,233,0,1,3,2,4,control,0,28,0,Republican,civil,Female,Born 1975-1990,White,Professional degree,Every day  ,0,0,Republican
+234,234,1,4,1,2,3,threatening,75,70,86,Republican,uncivil,Male,Born 1991 or later,White,Professional degree,Every day  ,75,65,Republican
+235,235,0,4,2,1,3,control,63,3,4,Democrat,intolerant,Male,Born 1991 or later,White,College,Every day  ,0,58,Leaning Democrat
+236,236,1,4,2,3,1,threatening,100,100,100,Independent,threatening,Female,Born 1991 or later,White,High school graduate,Less often,85,100,Independent
+237,237,0,4,2,1,3,control,60,100,30,Democrat,intolerant,Female,Born 1975-1990,White,Postgraduate (e.g. Masters),Every day  ,100,100,Strong Democrat
+238,238,1,4,3,2,1,threatening,90,100,95,Democrat,threatening,Female,Born 1991 or later,Hispanic,College,Every day  ,85,100,Democrat
+239,239,1,4,3,1,2,threatening,70,100,100,Independent,intolerant,Female,Born 1959-1974,White,College,Every day  ,20,100,Independent
+240,240,0,3,2,1,4,control,20,100,0,Democrat,intolerant,Female,Born 1959-1974,White,PhD,Less often,100,80,Strong Democrat
+241,241,1,4,2,3,1,threatening,79,83,92,Independent,threatening,Male,Born 1991 or later,Race other/multiple,High school graduate,Every day  ,0,4,Independent
+242,242,0,4,1,2,3,control,92,86,16,Democrat,uncivil,Male,Born 1975-1990,White,High school graduate,Every day  ,34,18,Democrat
+243,243,1,4,3,2,1,threatening,97,100,82,Democrat,threatening,Female,Born 1975-1990,Race other/multiple,Professional degree,Every day  ,100,100,Leaning Democrat
+244,244,0,4,1,2,3,control,100,100,70,Independent,uncivil,Female,Born 1975-1990,White,College,Every day  ,100,100,Independent
+245,245,1,4,3,1,2,threatening,20,0,10,Democrat,intolerant,Male,Born 1991 or later,Race other/multiple,College,At least once a week but not every day  ,80,75,Leaning Democrat
+246,246,0,1,3,2,4,control,12,44,0,Republican,civil,Female,Born 1975-1990,White,College,Every day  ,0,0,Leaning Republican
+247,247,0,2,3,1,4,control,10,90,30,Independent,intolerant,Female,Born 1975-1990,White,Professional degree,Every day  ,30,75,Independent
+248,248,1,4,2,1,3,threatening,100,100,10,Independent,intolerant,Female,Born 1991 or later,Race other/multiple,College,Every day  ,50,100,Independent
+249,249,0,4,2,1,3,control,82,96,59,Democrat,intolerant,Female,Born 1975-1990,White,High school graduate,Every day  ,87,90,Strong Democrat
+250,250,1,4,3,1,2,threatening,88,91,85,Democrat,intolerant,Female,Born 1991 or later,White,College,Every day  ,89,90,Democrat
+251,251,1,4,3,2,1,threatening,94,92,100,Independent,threatening,Female,Born 1943-1958,White,Postgraduate (e.g. Masters),Every day  ,81,91,Independent
+252,252,0,1,3,2,4,control,68,83,4,Republican,civil,Male,Born 1975-1990,White,Professional degree,Every day  ,13,15,Republican
+253,253,1,4,2,3,1,threatening,100,100,100,Democrat,threatening,Male,Born 1991 or later,Race other/multiple,High school graduate,At least once a week but not every day  ,80,100,Leaning Democrat
+254,254,0,4,2,1,3,control,100,100,25,Independent,intolerant,Female,Born 1991 or later,White,College,Every day  ,17,100,Independent
+255,255,0,4,3,1,2,control,73,90,70,Democrat,intolerant,Female,Born 1991 or later,White,College,Every day  ,64,84,Democrat
+256,256,1,4,1,2,3,threatening,100,60,60,Republican,uncivil,Male,Born 1975-1990,White,College,Every day  ,0,0,Republican
+257,257,1,4,2,3,1,threatening,100,100,100,Democrat,threatening,Female,Born 1959-1974,White,College,Every day  ,100,100,Strong Democrat
+258,258,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Male,Born 1959-1974,White,College,Every day  ,88,100,Leaning Democrat
+259,259,0,2,3,1,4,control,50,100,0,Independent,intolerant,Male,Born 1975-1990,Black,High school graduate,At least once a week but not every day  ,0,0,Independent
+260,260,0,2,3,1,4,control,20,80,0,Democrat,intolerant,Male,Born 1975-1990,Race other/multiple,College,Every day  ,0,65,Leaning Democrat
+261,261,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Female,Born 1975-1990,Hispanic,College,Every day  ,100,100,Strong Democrat
+262,262,0,2,3,1,4,control,50,100,0,Democrat,intolerant,Female,Born 1991 or later,White,College,Every day  ,85,100,Leaning Democrat
+263,263,0,4,3,2,1,control,90,96,100,Democrat,threatening,Female,Born 1991 or later,White,College,Every day  ,81,100,Democrat
+264,264,1,4,3,2,1,threatening,81,98,89,Democrat,threatening,Female,Born 1991 or later,White,College,Every day  ,89,100,Leaning Democrat
+265,265,0,1,3,2,4,control,29,4,0,Democrat,civil,Female,Born 1991 or later,Black,High school graduate,Every day  ,0,67,Democrat
+266,266,1,4,2,1,3,threatening,100,100,99,Democrat,intolerant,Female,Born 1959-1974,White,College,Every day  ,97,100,Democrat
+267,267,1,4,3,2,1,threatening,100,85,100,Independent,threatening,Female,Born 1991 or later,White,High school graduate,Every day  ,40,88,Independent
+268,268,1,4,3,2,1,threatening,0,0,0,Democrat,threatening,Female,Born 1991 or later,Hispanic,High school graduate,At least once a week but not every day  ,15,0,Leaning Democrat
+269,269,0,1,3,2,4,control,10,50,2,Independent,civil,Male,Born 1959-1974,White,College,At least once a week but not every day  ,10,40,Independent
+270,270,0,3,2,1,4,control,75,100,0,Democrat,intolerant,Female,Born 1975-1990,White,Postgraduate (e.g. Masters),Every day  ,80,90,Leaning Democrat
+271,271,0,4,2,1,3,control,75,100,18,Democrat,intolerant,Male,Born 1975-1990,White,Professional degree,At least once a week but not every day  ,41,81,Strong Democrat
+272,272,1,4,1,2,3,threatening,96,100,76,Democrat,uncivil,Female,Born 1991 or later,White,High school graduate,At least once a week but not every day  ,74,91,Strong Democrat
+273,273,0,4,3,1,2,control,100,100,100,Democrat,intolerant,Female,Born 1991 or later,White,High school graduate,Every day  ,100,100,Strong Democrat
+274,274,1,4,1,2,3,threatening,100,80,60,Independent,uncivil,Male,Born 1975-1990,Race other/multiple,College,Every day  ,0,0,Independent
+275,275,0,2,4,3,1,control,67,100,38,Democrat,threatening,Female,Born 1991 or later,White,Postgraduate (e.g. Masters),Every day  ,71,85,Democrat
+276,276,1,4,3,1,2,threatening,100,100,96,Democrat,intolerant,Male,Born 1975-1990,White,College,Less often,96,100,Leaning Democrat
+277,277,0,3,2,1,4,control,75,100,20,Democrat,intolerant,Female,Born 1975-1990,White,College,Every day  ,40,90,Strong Democrat
+278,278,1,4,2,3,1,threatening,90,95,95,Democrat,threatening,Male,Born 1959-1974,Black,College,Every day  ,92,80,Leaning Democrat
+279,279,0,4,3,1,2,control,68,100,92,Democrat,intolerant,Female,Born 1975-1990,White,Postgraduate (e.g. Masters),Every day  ,81,74,Democrat
+280,280,1,4,1,3,2,threatening,90,60,78,Democrat,uncivil,Female,Born 1959-1974,White,High school graduate,Every day  ,23,89,Democrat
+281,281,1,4,3,2,1,threatening,94,98,98,Republican,threatening,Female,Born 1975-1990,Race other/multiple,Postgraduate (e.g. Masters),Every day  ,66,94,Republican
+282,282,0,3,2,1,4,control,74,84,7,Democrat,intolerant,Female,Born 1943-1958,White,College,Every day  ,18,53,Strong Democrat
+283,283,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Female,Born 1991 or later,Black,College,Every day  ,100,100,Strong Democrat
+284,284,0,2,3,1,4,control,57,88,3,Democrat,intolerant,Female,Born 1975-1990,White,College,Every day  ,71,65,Democrat
+285,285,0,3,2,1,4,control,76,100,7,Independent,intolerant,Male,Born 1991 or later,Race other/multiple,High school graduate,Every day  ,14,70,Independent
+286,286,1,1,2,3,4,threatening,50,62,86,Democrat,civil,Female,Born 1991 or later,Black,High school graduate,Every day  ,76,88,Democrat
+287,287,0,3,2,1,4,control,65,100,10,Democrat,intolerant,Other,Born 1991 or later,White,High school graduate,At least once a week but not every day  ,94,100,Democrat
+288,288,1,4,3,1,2,threatening,0,0,83,Democrat,intolerant,Male,Born 1959-1974,White,Postgraduate (e.g. Masters),Every day  ,24,0,Democrat
+289,289,0,4,3,1,2,control,100,100,100,Republican,intolerant,Male,Born 1975-1990,Black,College,Less often,100,100,Leaning Republican
+290,290,1,4,1,3,2,threatening,96,100,100,Democrat,uncivil,Female,Born 1991 or later,Hispanic,High school graduate,Every day  ,100,100,Democrat
+291,291,1,1,2,4,3,threatening,42,0,0,Independent,civil,Male,Born 1991 or later,Hispanic,Postgraduate (e.g. Masters),Every day  ,0,0,Independent
+292,292,0,3,1,2,4,control,36,60,16,Independent,uncivil,Female,Born 1991 or later,White,College,Every day  ,24,40,Independent
+293,293,1,3,1,2,4,threatening,100,90,0,Republican,uncivil,Male,Born 1991 or later,White,College,Every day  ,30,100,Republican
+294,294,1,4,3,1,2,threatening,79,75,63,Democrat,intolerant,Male,Born 1959-1974,White,College,Every day  ,72,100,Democrat
+295,295,0,1,2,3,4,control,0,0,0,Republican,civil,Male,Born 1991 or later,Hispanic,High school graduate,Every day  ,0,0,Strong Republican
+296,296,0,3,2,1,4,control,54,91,7,Independent,intolerant,Female,Born 1991 or later,White,High school graduate,Every day  ,57,39,Independent
+297,297,1,4,2,3,1,threatening,100,100,100,Republican,threatening,Female,NA,White,High school graduate,Every day  ,100,100,Leaning Republican
+298,298,0,2,4,1,3,control,35,75,35,Democrat,intolerant,Male,Born 1991 or later,White,College,At least once a week but not every day  ,51,51,Democrat
+299,299,0,2,4,1,3,control,14,74,18,Democrat,intolerant,Male,Born 1991 or later,White,College,Less often,62,71,Leaning Democrat
+300,300,1,4,3,2,1,threatening,79,100,100,Democrat,threatening,Female,Born 1975-1990,White,Professional degree,Every day  ,97,100,Leaning Democrat
+301,301,1,4,3,2,1,threatening,100,100,100,Independent,threatening,Male,Born 1991 or later,White,High school graduate,At least once a week but not every day  ,100,100,Independent
+302,302,0,4,1,2,3,control,91,87,62,Republican,uncivil,Female,Born 1991 or later,White,High school graduate,Every day  ,55,82,Leaning Republican
+303,303,0,2,1,3,4,control,65,56,42,Republican,uncivil,Female,Born 1991 or later,White,College,Every day  ,65,55,Leaning Republican
+304,304,1,2,4,1,3,threatening,21,27,28,Independent,intolerant,Female,Born 1991 or later,Black,Professional degree,At least once a week but not every day  ,76,28,Independent
+305,305,1,4,1,2,3,threatening,71,72,40,Republican,uncivil,Male,Born 1975-1990,White,Postgraduate (e.g. Masters),Every day  ,13,46,Leaning Republican
+306,306,0,1,2,3,4,control,36,36,36,Independent,civil,Female,Born 1991 or later,Race other/multiple,Postgraduate (e.g. Masters),Every day  ,28,29,Independent
+307,307,0,4,2,1,3,control,93,95,6,Democrat,intolerant,Female,Born 1975-1990,White,Professional degree,Every day  ,65,96,Strong Democrat
+308,308,0,3,2,1,4,control,11,12,4,Democrat,intolerant,Female,Born 1975-1990,Hispanic,High school graduate,Every day  ,82,80,Strong Democrat
+309,309,1,4,3,2,1,threatening,94,55,75,Republican,threatening,Male,Born 1975-1990,Hispanic,College,Every day  ,0,0,Leaning Republican
+310,310,1,4,2,3,1,threatening,100,100,100,Independent,threatening,Female,Born 1991 or later,White,High school graduate,Every day  ,0,100,Independent
+311,311,1,4,2,1,3,threatening,74,100,84,Independent,intolerant,Female,Born 1991 or later,White,PhD,Every day  ,89,80,Independent
+312,312,0,4,2,1,3,control,88,100,13,Independent,intolerant,Female,Born 1991 or later,White,High school graduate,At least once a week but not every day  ,89,95,Independent
+313,313,1,4,1,3,2,threatening,93,59,90,Democrat,uncivil,Female,Born 1991 or later,Race other/multiple,College,Every day  ,64,80,Leaning Democrat
+314,314,0,2,3,1,4,control,50,100,25,Democrat,intolerant,Female,Born 1975-1990,Race other/multiple,Postgraduate (e.g. Masters),Every day  ,82,0,Strong Democrat
+315,315,1,4,1,3,2,threatening,100,76,87,Democrat,uncivil,Female,Born 1991 or later,White,College,Every day  ,64,92,Democrat
+316,316,0,4,2,1,3,control,75,100,70,Democrat,intolerant,Female,Born 1991 or later,White,Professional degree,Every day  ,70,70,Leaning Democrat
+317,317,0,3,2,1,4,control,100,88,17,Independent,intolerant,Female,Born 1991 or later,Black,High school graduate,A few times a month  ,100,72,Independent
+318,318,1,4,3,1,2,threatening,88,83,72,Republican,intolerant,Female,Born 1975-1990,White,High school graduate,At least once a week but not every day  ,36,78,Leaning Republican
+319,319,1,4,3,2,1,threatening,81,78,97,Democrat,threatening,Other,Born 1991 or later,Race other/multiple,High school graduate,At least once a week but not every day  ,56,85,Democrat
+320,320,0,1,2,3,4,control,7,7,8,Independent,civil,Male,Born 1959-1974,White,Professional degree,Less often,0,0,Independent
+321,321,0,4,2,1,3,control,87,100,60,Independent,intolerant,Female,Born 1991 or later,White,High school graduate,Every day  ,25,66,Independent
+322,322,1,4,2,1,3,threatening,100,100,80,Democrat,intolerant,Female,Born 1991 or later,Race other/multiple,High school graduate,Every day  ,80,100,Democrat
+323,323,0,3,2,1,4,control,88,98,61,Democrat,intolerant,Female,Born 1975-1990,Race other/multiple,College,A few times a month  ,84,90,Democrat
+324,324,1,4,2,3,1,threatening,100,100,100,Independent,threatening,Female,Born 1959-1974,White,High school graduate,Every day  ,50,100,Independent
+325,325,1,4,2,3,1,threatening,100,40,100,Independent,threatening,Female,Born 1991 or later,White,High school graduate,Every day  ,78,100,Independent
+326,326,0,4,2,1,3,control,68,87,42,Democrat,intolerant,Female,Born 1975-1990,White,Postgraduate (e.g. Masters),Every day  ,23,33,Leaning Democrat
+327,327,1,4,3,2,1,threatening,86,79,84,Republican,threatening,Female,Born 1991 or later,White,High school graduate,Every day  ,74,100,Leaning Republican
+328,328,0,3,1,2,4,control,48,15,9,Independent,uncivil,Male,Born 1991 or later,Black,High school graduate,Every day  ,0,0,Independent
+329,329,0,4,2,1,3,control,68,62,20,Independent,intolerant,Female,Born 1975-1990,White,College,Every day  ,7,52,Independent
+330,330,1,4,1,2,3,threatening,93,93,17,Independent,uncivil,Male,Born 1991 or later,Hispanic,High school graduate,Every day  ,80,67,Independent
+331,331,0,3,2,1,4,control,75,100,20,Democrat,intolerant,Male,Born 1975-1990,White,Less than high school,Every day  ,90,90,Strong Democrat
+332,332,1,4,3,2,1,threatening,98,99,100,Democrat,threatening,Male,Born 1975-1990,White,Less than high school,Every day  ,86,96,Leaning Democrat
+333,333,1,4,2,1,3,threatening,56,82,53,Republican,intolerant,Female,Born 1975-1990,Hispanic,High school graduate,Every day  ,3,4,Leaning Republican
+334,334,0,4,2,1,3,control,100,100,20,Democrat,intolerant,Female,Born 1959-1974,White,High school graduate,Every day  ,100,100,Democrat
+335,335,0,3,2,1,4,control,100,96,25,Democrat,intolerant,Female,Born 1943-1958,Black,College,A few times a month  ,75,90,Democrat
+336,336,1,4,3,2,1,threatening,100,100,100,Independent,threatening,Male,Born 1975-1990,White,College,Every day  ,50,50,Independent
+337,337,0,2,3,1,4,control,27,100,3,Independent,intolerant,Female,Born 1991 or later,Race other/multiple,College,Every day  ,23,80,Independent
+338,338,0,4,1,2,3,control,100,75,66,Democrat,uncivil,Female,Born 1991 or later,White,College,Every day  ,100,100,Strong Democrat
+339,339,1,4,3,2,1,threatening,100,100,95,Democrat,threatening,Male,Born 1959-1974,White,High school graduate,Every day  ,50,75,Democrat
+340,340,1,4,2,1,3,threatening,100,90,84,Democrat,intolerant,Male,Born 1975-1990,White,College,Every day  ,73,100,Democrat
+341,341,1,4,3,1,2,threatening,100,100,100,Democrat,intolerant,Female,Born 1975-1990,Black,Professional degree,Every day  ,75,100,Leaning Democrat
+342,342,0,4,2,1,3,control,87,69,17,Democrat,intolerant,Male,Born 1975-1990,White,High school graduate,Every day  ,61,89,Democrat
+343,343,1,4,2,3,1,threatening,100,100,100,Independent,threatening,Female,Born 1991 or later,White,College,Every day  ,94,96,Independent
+344,344,0,4,1,2,3,control,80,80,35,Democrat,uncivil,Male,Born 1991 or later,White,College,A few times a month  ,70,55,Leaning Democrat
+345,345,0,4,1,2,3,control,97,100,88,Democrat,uncivil,Male,Born 1991 or later,Race other/multiple,College,Every day  ,92,68,Strong Democrat
+346,346,1,4,3,2,1,threatening,100,100,100,Democrat,threatening,Female,Born 1975-1990,White,College,Every day  ,81,81,Strong Democrat
+347,347,1,4,2,3,1,threatening,88,79,100,Republican,threatening,Female,Born 1959-1974,White,College,Less often,77,100,Republican
+348,348,0,4,2,1,3,control,100,90,55,Republican,intolerant,Male,Born 1991 or later,White,College,Every day  ,56,52,Republican
+349,349,0,4,2,3,1,control,57,55,57,Democrat,threatening,Male,Born 1975-1990,Black,College,Every day  ,57,46,Leaning Democrat
+350,350,0,1,4,3,2,control,77,61,54,Democrat,civil,Male,Born 1991 or later,Race other/multiple,College,Every day  ,73,65,Democrat
+351,351,1,4,1,3,2,threatening,83,80,95,Democrat,uncivil,Male,Born 1991 or later,Hispanic,"Professional degree,College",Every day  ,100,0,Leaning Democrat
+352,352,1,3,2,4,1,threatening,68,0,100,Republican,threatening,Male,Born 1991 or later,Black,College,Every day  ,33,37,Strong Republican
+353,353,1,4,2,3,1,threatening,81,74,81,Republican,threatening,Male,Born 1959-1974,White,"Professional degree,College",At least once a week but not every day  ,72,70,Republican
+354,354,0,1,4,3,2,control,58,57,83,Democrat,civil,Male,Born 1991 or later,Race other/multiple,College,Every day  ,24,23,Leaning Democrat
+355,355,0,1,3,2,4,control,0,0,0,Republican,civil,Male,Born 1959-1974,Black,College,Every day  ,0,0,Republican
+356,356,1,4,3,1,2,threatening,93,86,84,Republican,intolerant,Male,Born 1991 or later,White,College,Less often,82,70,Republican
+357,357,0,3,2,1,4,control,56,89,32,Independent,intolerant,Male,Born 1991 or later,White,College,At least once a week but not every day  ,58,69,Independent
+358,358,1,4,1,2,3,threatening,84,85,83,Democrat,uncivil,Male,Born 1975-1990,White,Professional degree,At least once a week but not every day  ,69,74,Democrat
+359,359,1,1,2,3,4,threatening,0,0,0,Republican,civil,Male,Born 1975-1990,White,College,Every day  ,0,0,Republican
+360,360,0,4,3,1,2,control,74,93,71,Independent,intolerant,Male,Born 1943-1958,White,Postgraduate (e.g. Masters),Less often,29,34,Independent
+361,361,1,4,1,2,3,threatening,100,100,100,Democrat,uncivil,Male,Born 1975-1990,White,Professional degree,Every day  ,100,100,Democrat
+362,362,0,4,2,1,3,control,88,95,35,Democrat,intolerant,Male,Born 1975-1990,White,College,Every day  ,75,85,Leaning Democrat
+363,363,1,4,2,1,3,threatening,88,88,90,Democrat,intolerant,Other,Born 1991 or later,Hispanic,Professional degree,Every day  ,48,16,Democrat
+364,364,0,3,2,1,4,control,90,100,0,Democrat,intolerant,Male,Born 1991 or later,White,College,Every day  ,25,65,Democrat
+365,365,0,1,3,2,4,control,10,20,5,Republican,civil,Male,Born 1959-1974,White,College,Every day  ,0,0,Republican
+366,366,1,4,3,1,2,threatening,95,95,85,Republican,intolerant,Male,Born 1991 or later,White,College,Every day  ,70,85,Leaning Republican
+367,367,0,1,3,2,4,control,30,20,10,Republican,civil,Male,Born 1975-1990,White,College,Every day  ,15,25,Leaning Republican
+368,368,1,4,3,2,1,threatening,64,74,92,Democrat,threatening,Male,Born 1975-1990,White,College,Every day  ,81,83,Leaning Democrat
+369,369,0,2,1,3,4,control,71,60,0,Independent,uncivil,Male,Born 1975-1990,White,College,At least once a week but not every day  ,0,10,Independent
+370,370,1,4,2,3,1,threatening,100,100,100,Democrat,threatening,Male,Born 1991 or later,White,College,Every day  ,100,100,Leaning Democrat
+371,371,0,1,3,2,4,control,5,10,0,Democrat,civil,Male,Born 1991 or later,White,High school graduate,Every day  ,10,10,Leaning Democrat
+372,372,1,4,3,2,1,threatening,100,100,100,Republican,threatening,Male,Born 1959-1974,White,Professional degree,Every day  ,90,90,Strong Republican
+373,373,0,3,2,1,4,control,25,25,1,Republican,intolerant,Male,Born 1991 or later,White,High school graduate,Every day  ,0,0,Republican
+374,374,0,1,2,3,4,control,51,51,51,Independent,civil,Male,Born 1975-1990,White,College,At least once a week but not every day  ,51,51,Independent
+375,375,1,4,1,2,3,threatening,71,65,52,Democrat,uncivil,Male,Born 1975-1990,White,College,At least once a week but not every day  ,71,81,Leaning Democrat
+376,376,1,4,2,3,1,threatening,84,61,77,Republican,threatening,Male,Born 1975-1990,Black,Postgraduate (e.g. Masters),Every day  ,88,73,Leaning Republican
+377,377,0,4,3,1,2,control,60,78,59,Democrat,intolerant,Female,Born 1991 or later,White,High school graduate,At least once a week but not every day  ,68,75,Leaning Democrat
+378,378,1,4,2,1,3,threatening,80,90,68,Democrat,intolerant,Male,Born 1959-1974,White,High school graduate,Every day  ,35,80,Leaning Democrat
+379,379,1,4,2,1,3,threatening,98,100,90,Democrat,intolerant,Male,Born 1975-1990,Hispanic,High school graduate,Every day  ,38,90,Leaning Democrat
+380,380,0,1,3,2,4,control,33,38,43,Independent,civil,Male,Born 1991 or later,Race other/multiple,College,At least once a week but not every day  ,17,26,Independent
+381,381,1,4,3,2,1,threatening,62,69,71,Republican,threatening,Male,Born 1975-1990,White,Professional degree,Every day  ,65,52,Republican
+382,382,0,3,1,2,4,control,89,76,18,Independent,uncivil,Male,Born 1991 or later,White,High school graduate,Every day  ,28,68,Independent
+383,383,0,3,1,2,4,control,71,80,0,Independent,uncivil,Male,Born 1991 or later,White,High school graduate,Every day  ,59,63,Independent
+384,384,1,4,3,2,1,threatening,100,100,100,Independent,threatening,Male,Born 1975-1990,White,High school graduate,A few times a month  ,50,65,Independent
+385,385,1,1,3,4,2,threatening,51,51,51,Independent,civil,Male,Born 1991 or later,Hispanic,College,Every day  ,51,51,Independent
+386,386,0,4,2,1,3,control,100,100,100,Independent,intolerant,Male,Born 1991 or later,Race other/multiple,College,A few times a month  ,100,100,Independent
+387,387,1,4,3,1,2,threatening,60,88,100,Independent,intolerant,Male,Born 1991 or later,Race other/multiple,College,Every day  ,35,39,Independent
+388,388,0,1,3,2,4,control,10,60,0,Republican,civil,Male,Born 1959-1974,White,Postgraduate (e.g. Masters),Every day  ,0,0,Strong Republican
+389,389,1,4,3,2,1,threatening,86,75,74,Democrat,threatening,Male,Born 1991 or later,Hispanic,College,Every day  ,47,63,Leaning Democrat
+390,390,0,4,2,1,3,control,100,100,0,Democrat,intolerant,Other,Born 1991 or later,White,High school graduate,Every day  ,100,100,Democrat
+391,391,1,4,2,3,1,threatening,84,91,87,Independent,threatening,Male,Born 1991 or later,Black,High school graduate,Every day  ,5,90,Independent
+392,392,0,4,2,1,3,control,82,74,67,Democrat,intolerant,Other,Born 1991 or later,White,College,Every day  ,74,73,Leaning Democrat
+393,393,1,4,2,3,1,threatening,83,59,80,Independent,threatening,Male,Born 1991 or later,White,High school graduate,Every day  ,70,74,Independent
+394,394,0,3,2,1,4,control,41,77,0,Democrat,intolerant,Male,Born 1975-1990,White,High school graduate,Less often,55,71,Strong Democrat
+395,395,0,3,2,1,4,control,56,92,0,Democrat,intolerant,Male,Born 1991 or later,White,High school graduate,Every day  ,61,82,Leaning Democrat
+396,396,1,4,2,3,1,threatening,100,100,100,Independent,threatening,Male,Born 1975-1990,Black,High school graduate,Every day  ,79,100,Independent
+397,397,1,4,1,3,2,threatening,91,70,60,Independent,uncivil,Male,Born 1991 or later,White,College,Every day  ,40,41,Independent
