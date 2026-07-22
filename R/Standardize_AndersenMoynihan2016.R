@@ -7,14 +7,9 @@ library(haven)
 df <- read_dta(here("raw", "replicationfile_Stata12.dta"))
 
 # 2. Items
-# 3 education goals: well-being, academic achievement, inclusiveness.
-# The replication data only record whether well-being was ranked first
-# (`wellbeingtoppriority`, a 0/1 binary). We recover this as a MARGINAL rank:
-# well-being = 1 when it was the top priority, NA otherwise. The positions of
-# academic achievement and inclusiveness are not recorded, so both are NA.
 items <- c("ch_wellbeing", "ch_achievement", "ch_inclusiveness")
 
-# 3. Build standardized frame (treatment, ch_*, covariates inline)
+# 3. Build standardized frame  
 dt <- df %>%
   mutate(unit = row_number(),
          id = schoolid,

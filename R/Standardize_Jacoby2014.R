@@ -7,8 +7,6 @@ library(haven)
 df <- read_sav(here("raw", "MSU, Common, CCES Dataset.sav"))
 
 # 2. Items
-# 7 American values ranked via sequential elimination (Plackett-Luce)
-# pt_*ordx columns are already in item-rank format (value = rank 1-7)
 items <- c("ch_freedom", "ch_equality", "ch_economicsecurity",
            "ch_morality", "ch_individualism", "ch_socialorder", "ch_patriotism")
 
@@ -22,8 +20,7 @@ df <- df %>%
   rename_with(~ items, all_of(rank_columns))
 
 # 4. Build standardized frame
-# No experimental treatment (observational CCES data); treat = 0 for all rows.
-# Paper restricts to 775 respondents with complete rank-orders (p.758)
+# No experimental treatment; treat = 0 for all rows.
 dt <- df %>%
   mutate(across(all_of(items), as.integer)) %>%
   filter(if_all(all_of(items), ~ !is.na(.))) %>%

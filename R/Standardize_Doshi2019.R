@@ -5,13 +5,14 @@ library(here)
 library(readr)
 library(haven)
 
-# 1. Load the raw World Bank Ease of Doing Business panel  
+# 1. Load   
 df <- read_dta(here("raw", "Doshi2019_WorldBank.dta"))
 
 # 2. Items (economies as columns; treat each year as a row).
 # (2005-2014; 2000-2004 and 2015 are all NA).
 # Fix 3 spelling typos in the paper's raw .dta file so column names match
-# the canonical World Bank spelling.
+# the canonical World Bank spelling
+
 df <- df %>%
   filter(year %in% 2005:2014, !is.na(economy)) %>%
   select(economy, year, p_edb_rank) %>%

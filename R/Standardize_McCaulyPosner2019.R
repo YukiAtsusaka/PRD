@@ -2,6 +2,7 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 library(magrittr)
+library(writexl)
 library(here)
 library(readr)  
 library(readxl)
@@ -67,7 +68,7 @@ names(dt) <- tolower(names(dt))
 glimpse(dt)
 
 # 5. Export
-write_csv(dt, here("standardized", "mccauley-posner-2019.csv"))
+write_csv(dt, "data/mccauley-posner-2019.csv")
 
 # Finalize schema: drop ch_ prefix and add ranking summary column
 source(here::here("R", "finalize_schema.R"))

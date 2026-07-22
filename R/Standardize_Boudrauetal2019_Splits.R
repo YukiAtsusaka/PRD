@@ -52,11 +52,11 @@ build_split <- function(df, base_arm, treat_arm, out_name) {
 # 6. Build the 2 splits
 cat("Building 2 pairwise splits of Boudreau et al 2019 (police):\n")
 build_split(df, base_arm = 0L, treat_arm = 1L,
-            out_name = "boudreau-etal-2019-police-pattern.csv")
+            out_name = "boudreau-etal-2019-police_pattern.csv")
 build_split(df, base_arm = 0L, treat_arm = 2L,
-            out_name = "boudreau-etal-2019-police-reform.csv")
+            out_name = "boudreau-etal-2019-police_reform.csv")
 
 # 7. Finalize schema for both splits
 source(here::here("R", "finalize_schema.R"))
-finalize_csv("boudreau-etal-2019-police-pattern.csv")
-finalize_csv("boudreau-etal-2019-police-reform.csv")
+finalize_csv("boudreau-etal-2019-police_pattern.csv")
+finalize_csv("boudreau-etal-2019-police_reform.csv")

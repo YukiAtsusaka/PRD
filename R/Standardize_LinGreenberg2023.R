@@ -7,16 +7,6 @@ library(readr)
 df <- read_csv(here("raw", "Expert Escalation.csv"))
 
 # 2. Items
-# 8 military action types ranked by escalation level (1=least, 8=most escalatory)
-# Mapping confirmed from paper p.3 survey text and replication code rownames():
-#   Escalation_Order_1 = SOF raid on rival country military base
-#   Escalation_Order_2 = SOF raid on rival country's naval ship
-#   Escalation_Order_3 = Drone attack on rival country military base
-#   Escalation_Order_4 = Manned bomber attack on rival country military base
-#   Escalation_Order_5 = Missile strike on rival country military base
-#   Escalation_Order_6 = Cyberattack on rival country military base
-#   Escalation_Order_7 = Support to rebel group to attack rival country military base
-#   Escalation_Order_8 = Large conventional ground force attack on rival country military base
 items <- c("ch_sofraid", "ch_sofraidonship", "ch_dronestrike",
            "ch_bomberattack", "ch_missilestrike", "ch_cyberattack",
            "ch_supporttoproxies", "ch_groundattack")

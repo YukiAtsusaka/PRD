@@ -5,22 +5,6 @@ library(here)
 library(readr)
 library(readxl)
 
-# Haas & Lindstam 2023, APSR:
-# "My History or Our History? Historical Revisionism and Entitlement to Lead."
-#
-# Pairwise SPLIT: Neutral (control) vs Exclusive history (treatment).
-# Sibling file: haas-lindstam-2023-inclusive.csv (Neutral vs Inclusive).
-# The original 3-arm file (haas-lindstam-2023.csv) is kept too.
-#
-# Ranking reconstruction identical to Standardize_HaasLindstam2023.R: Hindu
-# respondents only; three group members ranked 1 (most ideal) to 3 (least ideal)
-# = self, another Hindu member, a Muslim member. See that script for details.
-#
-# 3 arms (after `Treat - 1L`): 0 Neutral, 1 Exclusive, 2 Inclusive. (Raw Treat
-# coding verified against the authors' analysis data + recode_factor(Treat2 =
-# "Exclusive", Treat3 = "Inclusive").)
-# This file keeps treat 0 (Neutral) and Exclusive (already treat 1).
-
 # 1. Load + keep Hindu respondents only
 df <- readxl::read_excel(here::here("raw", "HaasandLindstam2023.xlsx")) %>%
   filter(Religion == 1L)

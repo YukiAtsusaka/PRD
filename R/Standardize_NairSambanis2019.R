@@ -2,6 +2,7 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 library(magrittr)
+library(writexl)
 library(here)
 library(readr)  
 library(readxl)
@@ -12,7 +13,7 @@ df <- readxl::read_excel(here::here("raw", "NairandSambanis2019.xlsx"))
 # 2. Items
 items <- c("ch_Indian", "ch_Kashmiri", "ch_Religion", "ch_Occupation")
 
-# 3. Treatment (0-indexed from string `group`)
+# 3. Treatment (0-indexed)
 df <- df %>%
   mutate(
     D_clean = str_squish(group),   # normalize spacing/case
@@ -50,7 +51,7 @@ names(dt) <- tolower(names(dt))
 glimpse(dt)
 
 # 6. Export
-write_csv(dt, here("standardized", "nair-sambanis-2019.csv"))
+write_csv(dt, "data/nair-sambanis-2019.csv")
 
 # Finalize schema: drop ch_ prefix and add ranking summary column
 source(here::here("R", "finalize_schema.R"))

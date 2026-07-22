@@ -4,24 +4,10 @@ library(stringr)
 library(here)
 library(readr)
 
-# Costa 2020, AJPS: "Ideology, Not Affect: What Americans Want from Political
-# Representation" -- Study 3 (partial ranking of 10 policy issues).
-#
-# Design: respondents ranked their top-3 issues from a list of 10; only
-# ranking1 (top-1) and ranking3 (3rd place) were stored. Positions 2 and 4-10
-# are unobserved.
-#
-# Treatment: 3x3 factorial (3 quote conditions x 3 issue conditions),
-# encoded in 8 binary indicators + two *_quote_text columns. Derived labels
-# (quotecondition, issuecondition) follow the construction in study3_analysis.R.
-
 # 1. Load
 df <- read_csv(here("raw", "costa_study3.csv"), show_col_types = FALSE)
 
 # 2. Items
-# 10 policy issues, with exact CSV labels -> ch_* names
-# CSV label order (alphabetical): Crime, Drug addiction, Education, Environment,
-# Health care, Immigration, Jobs, National security, Social security, Terrorism
 label_to_ch <- c(
   "National security" = "ch_nationalsecurity",
   "Health care"       = "ch_healthcare",
@@ -36,8 +22,7 @@ label_to_ch <- c(
 )
 items <- unname(label_to_ch)
 
-# 3. Choice columns: rank 1 if ranking1 matches, rank 3 if ranking3 matches,
-# NA otherwise (positions 2, 4-10 unobserved).
+# 3. Choice columns
 for (lbl in names(label_to_ch)) {
   col <- label_to_ch[[lbl]]
   df[[col]] <- dplyr::case_when(
@@ -47,8 +32,7 @@ for (lbl in names(label_to_ch)) {
   )
 }
 
-# 4. Treatment: derive quotecondition (3 levels) from the 8 binary indicators + *_quote_text.
-# Matches the construction in study3_analysis.R line-by-line.
+# 4. Treatment 
 df <- df %>%
   mutate(
     quotecondition = dplyr::case_when(
@@ -74,7 +58,7 @@ df <- df %>%
     )
   )
 
-# Combine into single 0-indexed treat: 9 cells (3 quote x 3 issue)
+# Combine into single 0-indexed treat
 df <- df %>%
   mutate(
     quote_f = factor(quotecondition, levels = c("No quote", "They lose", "We win")),

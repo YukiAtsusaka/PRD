@@ -2,6 +2,7 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 library(magrittr)
+library(writexl)
 library(here)
 library(readr)  
 library(readxl)
@@ -41,7 +42,7 @@ names(dt) <- tolower(names(dt))
 glimpse(dt)
 
 # 6. Export
-write_csv(dt, here("standardized", "boudreau-etal-2019-police.csv"))
+write_csv(dt, "data/boudreau-etal-2019-police.csv")
 
 # Finalize schema: drop ch_ prefix and add ranking summary column
 source(here::here("R", "finalize_schema.R"))

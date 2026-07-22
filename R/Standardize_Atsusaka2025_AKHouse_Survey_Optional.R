@@ -3,32 +3,6 @@ library(stringr)
 library(here)
 library(readr)
 
-# Atsusaka, Yuki. 2025. "Analyzing Ballot Order Effects When Voters Rank
-# Candidates." Political Analysis 33(1): 64-72.
-#
-# Alaska U.S. House (U.S. Representative) Qualtrics survey -- *optional*
-# ranking task (respondents may rank up to four candidates; values 1..K
-# with K determined per-respondent). C3_* columns in
-# qualtrics_Alaska_nonnumeric.csv. Sibling of the forced task in C4_*
-# (atsusaka-2025-akhouse-survey-forced.csv). Order of forced/optional
-# is randomized per the paper.
-#
-# This Qualtrics survey is INDEPENDENT of the CVR sibling files
-# atsusaka_2025_akusrep_full.csv / _partial.csv (real cast ballots from
-# the 2022 Alaska U.S. Representative election); the 4 candidates match.
-#
-# Treatment: ballot/display order. Randomization is per-respondent --
-# `treat = 0` for all, with per-row permutation in `display_order`.
-#
-# Four candidates (column number -> standardized name; same labels as
-# CVR siblings):
-#   C3_1 = Nick Begich      -> ch_begich
-#   C3_2 = Chris Bye        -> ch_bye
-#   C3_3 = Sarah Palin      -> ch_palin
-#   C3_4 = Mary S. Peltola  -> ch_peltola
-#
-# Values in C3_* are 1..K (1 <= K <= 4); NA elsewhere.
-
 # 1. Load
 col_names <- names(read_csv(here("raw", "qualtrics_Alaska_nonnumeric.csv"),
                             n_max = 0, show_col_types = FALSE))

@@ -4,24 +4,6 @@ library(stringr)
 library(here)
 library(readr)
 
-# Pradel, Zilinsky, Kosmidis & Theocharis 2024 (APSR):
-# "Toxic Speech and Limited Demand for Content Moderation on Social Media"
-#
-# PAIRWISE SPLITS of the LGBTQ-replication study (5 files).
-# Sibling of the original 6-arm file pradel-etal-2024.csv (kept).
-#
-# Pradel's design has two control tiers:
-#   - "non-group-related control"  : non-LGBTQ content    (treat = 1 in original)
-#   - "control"                    : civil LGBTQ content  (treat = 0 in original)
-# Plus 4 toxic-speech treatments (treat = 2, 3, 4, 5).
-#
-# Per the authors' analysis (see 1_main.R in the replication archive), the
-# meaningful pairwise comparisons are:
-#   - 4 toxic-speech effects: control vs each of uncivil / intolerant /
-#     threatening / threatening (new). Each splits 0=control / 1=treatment.
-#   - 1 group-membership effect: non-group-related control vs control.
-#     Splits 0=non-group-related-control / 1=control.
-
 # 1. Load raw
 load(here("raw", "lgbtq_replication.RData"))
 df <- iit2

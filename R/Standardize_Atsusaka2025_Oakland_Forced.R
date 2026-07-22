@@ -2,45 +2,7 @@ library(dplyr)
 library(stringr)
 library(here)
 library(readr)
-
-# Atsusaka, Yuki. 2025. "Analyzing Ballot Order Effects When Voters Rank
-# Candidates." Political Analysis 33(1): 64-72.
-#
-# Oakland mayoral Qualtrics survey -- *forced* ranking task (rank ALL 10
-# candidates). Companion to atsusaka-2025-oakland-optional.csv (the top-3
-# task that matches real Oakland RCV election rules). Same 259 Lucid
-# respondents complete both tasks; the order of the two tasks is randomized
-# (per the paper). Yuki's *published* Figure 2 (main text) and Figure E1
-# (online appendix) on Oakland use this forced task (C2_*).
-#
-# Treatment in the paper: ballot/display order (the position each candidate
-# is shown in). For this survey experiment that randomization is per-
-# respondent (one random permutation of the 10 candidates per row), so
-# there is no small-cardinality between-subjects arm -- `treat = 0` for all
-# respondents, with the full per-row permutation preserved in
-# `display_order` (pipe-separated candidate names) for downstream analysis
-# of position effects.
-#
-# Ten candidates (column number -> standardized name; same labels as in the
-# C1/optional sibling file):
-#   C2_1  = Seneca Scott               -> ch_scott
-#   C2_2  = Gregory Hodge              -> ch_hodge
-#   C2_3  = Loren Manuel Taylor        -> ch_taylor
-#   C2_4  = Peter Y. Liu               -> ch_liu
-#   C2_5  = Sheng Thao                 -> ch_thao
-#   C2_6  = Ignacio De La Fuente       -> ch_delafuente
-#   C2_7  = Allyssa Victory Villanueva -> ch_villanueva
-#   C2_8  = John Reimann               -> ch_reimann
-#   C2_17 = Tyron C. Jordan            -> ch_jordan
-#   C2_18 = Treva D. Reid              -> ch_reid
-#
-# Values in C2_* are 1..10 (forced full ranking); all 259 respondents
-# rank all 10 candidates.
-#
-# Note on file format: Qualtrics CSVs have three header rows (variable
-# names, question text, and ImportId metadata) before the actual data.
-# We read the variable names from the first row, then read the data rows
-# with skip = 3.
+ 
 
 # 1. Load
 col_names <- names(read_csv(here("raw", "qualtrics_Oakland.csv"),

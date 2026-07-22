@@ -2,6 +2,7 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 library(magrittr)
+library(writexl)
 library(here)
 library(readr)  
 library(readxl)
@@ -25,8 +26,7 @@ df <- df %>%
 head(df)
 
 # 4. Filter out 5 typo rows where the respondent gave duplicate rank values
-# across the 4 items (rows 138, 292, 301, 385, 419 in raw, e.g. (4,4,4,4)).
-# Survey UI did not enforce uniqueness; these are invalid responses.
+# across the 4 items.
 keep <- apply(df[, c("ch_Tribe", "ch_Nationality", "ch_Religion", "ch_Gender")],
               1, function(r) !anyNA(r) && length(unique(r)) == length(r))
 df <- df[keep, ]

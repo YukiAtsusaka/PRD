@@ -3,44 +3,7 @@ library(stringr)
 library(here)
 library(readr)
 
-# Atsusaka, Yuki. 2025. "Analyzing Ballot Order Effects When Voters Rank
-# Candidates." Political Analysis 33(1): 64-72.
-#
-# Alaska U.S. Senate Qualtrics survey -- *forced* ranking task (rank ALL
-# four candidates). C6_* columns in qualtrics_Alaska_nonnumeric.csv.
-# Same 354 Lucid respondents complete both this forced task and the
-# optional sibling task (C5_*, in atsusaka-2025-aksenate-survey-optional.csv).
-# The order of the two tasks is randomized (per the paper). The same
-# 354 respondents also rank the four AK U.S. House candidates in C3_*/C4_*.
-#
-# This Qualtrics survey is INDEPENDENT of the cast-vote-record (CVR)
-# files atsusaka_2025_aksenate_full.csv / _partial.csv, which come from
-# actual cast ballots in the 2022 Alaska U.S. Senate election. The four
-# candidates are the same, but the Qualtrics data is a between-subjects
-# survey experiment on Lucid respondents while the CVR data is the
-# corresponding real-election natural experiment via Alaska's ballot
-# rotation procedure.
-#
-# Treatment: ballot/display order (the position each candidate is shown
-# in). Randomization is per-respondent (one random permutation of the 4
-# candidates per row), so there is no small-cardinality between-subjects
-# arm -- `treat = 0` for all respondents, with the full per-row
-# permutation preserved in `display_order` (pipe-separated candidate
-# names) for downstream position-effect analysis.
-#
-# Four candidates (column number -> standardized name; same labels as the
-# CVR sibling files atsusaka_2025_aksenate_full.csv / _partial.csv):
-#   C6_1 = Patricia R. Chesbro (Registered Democrat)     -> ch_chesbro
-#   C6_2 = Buzz A. Kelley      (Registered Republican)   -> ch_kelley
-#   C6_3 = Lisa Murkowski      (Registered Republican)   -> ch_murkowski
-#   C6_4 = Kelly C. Tshibaka   (Registered Republican)   -> ch_tshibaka
-#
-# Values in C6_* are 1..4 (forced full ranking); all 354 respondents
-# rank all 4 candidates.
-#
-# Note on file format: Qualtrics CSVs have three header rows (variable
-# names, question text, and ImportId metadata) before the actual data.
-
+ 
 # 1. Load
 col_names <- names(read_csv(here("raw", "qualtrics_Alaska_nonnumeric.csv"),
                             n_max = 0, show_col_types = FALSE))

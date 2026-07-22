@@ -2,52 +2,7 @@ library(dplyr)
 library(stringr)
 library(here)
 library(readr)
-
-# Atsusaka, Yuki. 2025. "Analyzing Ballot Order Effects When Voters Rank
-# Candidates." Political Analysis 33(1): 64–72.
-#
-# Oakland mayoral Qualtrics survey -- *optional* (top-three) ranking task.
-# This is the C1_* set of columns and matches real Oakland RCV election
-# rules (voters rank up to three candidates). The forced full-1..10
-# version of the same task lives in the sibling file
-# atsusaka-2025-oakland-forced.csv (C2_* columns); both tasks are asked
-# of the same 259 respondents in a randomized order. Yuki's *published*
-# Oakland figure (Figure 2 / Figure E1) uses the forced sibling.
-#
-# Each respondent saw an independently randomized display order of 10
-# candidates and was asked to rank their top three choices (RCV format).
-#
-# Ten candidates (same numbering as in the raw Qualtrics file C1_*):
-#   C1_1  = Seneca Scott               -> ch_scott
-#   C1_2  = Gregory Hodge              -> ch_hodge
-#   C1_3  = Loren Manuel Taylor        -> ch_taylor
-#   C1_4  = Peter Y. Liu               -> ch_liu
-#   C1_5  = Sheng Thao                 -> ch_thao
-#   C1_6  = Ignacio De La Fuente       -> ch_delafuente
-#   C1_7  = Allyssa Victory Villanueva -> ch_villanueva
-#   C1_8  = John Reimann               -> ch_reimann
-#   C1_17 = Tyron C. Jordan            -> ch_jordan
-#   C1_18 = Treva D. Reid              -> ch_reid
-#
-# Values in C1_* are 1 / 2 / 3 (top-three ranks), NA otherwise.
-#
-# Treatment: display-order randomization happens within-respondent — each
-# respondent sees their own random permutation of the 10 candidates — so
-# there is no between-respondent treatment to put in `treat`. Set
-# `treat = 0` for all respondents and preserve the full per-respondent
-# display order in the `display_order` covariate (pipe-separated candidate
-# names) for downstream analysis of position effects.
-#
-# The second ranking task (C2_*) is the "forced" full 1..10 version of
-# the same question and is standardized in the sibling script
-# R/Standardize_Atsusaka2025_Oakland_Forced.R ->
-# standardized/atsusaka-2025-oakland-forced.csv.
-#
-# Note on file format: Qualtrics CSVs have three header rows (variable
-# names, question text, and ImportId metadata) before the actual data.
-# We read the variable names from the first row, then read the data rows
-# with skip = 3.
-
+ 
 # 1. Load
 col_names <- names(read_csv(here("raw", "qualtrics_Oakland.csv"),
                             n_max = 0, show_col_types = FALSE))

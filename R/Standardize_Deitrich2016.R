@@ -2,6 +2,7 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 library(magrittr)
+library(writexl)
 library(here)
 library(readr)  
 library(haven)
@@ -14,7 +15,7 @@ df <- df %>%
   mutate(id = row_number())
 items <- c("ch_recipientgovernment", "ch_internationalorganization", "ch_internationalNGOs", "ch_localNGOs", "ch_privatesector")
 
-# 3. Treatment: pivot the three treatment-question columns into long format
+# 3. Treatment 
 df <- df %>%
   pivot_longer(
     cols = c(q133, q126, q128),,
@@ -58,7 +59,7 @@ names(dt) <- tolower(names(dt))
 glimpse(dt)
 
 # 6. Export
-write_csv(dt, here("standardized", "deitrich-2016.csv"))
+write_csv(dt, "data/deitrich-2016.csv")
 
 # Finalize schema: drop ch_ prefix and add ranking summary column
 source(here::here("R", "finalize_schema.R"))

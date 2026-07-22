@@ -23,7 +23,7 @@ stopifnot(length(rank_columns) == length(items))   # enforce same size between r
 df <- df %>%
   rename_with(~ items, all_of(rank_columns))
 
-# 4. Treatment (0-indexed from string `treatment`)
+# 4. Treatment 
 df <- df %>%
   mutate(
     D_clean = str_squish(str_to_lower(.data[[D]])),   # normalize spacing/case
@@ -56,7 +56,7 @@ names(dt) <- tolower(names(dt))
 glimpse(dt)
 
 # 6. Export
-write_csv(dt, here("standardized", "pradel-etal-2024.csv"))
+write_csv(dt, "data/pradel-etal-2024.csv")
 
 # Finalize schema: drop ch_ prefix and add ranking summary column
 source(here::here("R", "finalize_schema.R"))

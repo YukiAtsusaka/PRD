@@ -4,31 +4,13 @@ library(here)
 library(readr)
 library(readxl)
 
-# Nair & Sambanis 2019 — "Violence Exposure and Ethnic Identification"
-#
-# PAIRWISE SPLITS of the 5-arm priming experiment (4 files).
-# Sibling of the original 5-arm file `nair-sambanis-2019.csv` (kept).
-#
-# CAVEAT — DEGENERATE DATA: only `Indian_rank` is observed in the public data;
-# the other 3 items (Kashmiri, Religion, Occupation) are NA. Splits will only
-# show shifts in whether respondents picked "Indian" as their top identity.
-#
-# Original group (string) -> treat:
-#   treat = 0  Control
-#   treat = 1  Protest prime
-#   treat = 2  Economic growth prime
-#   treat = 3  Army prime
-#   treat = 4  Map prime
-#
-# Each split pairs the control (0) against ONE prime arm, relabeled to 1.
-
 # 1. Load raw
 df <- readxl::read_excel(here::here("raw", "NairandSambanis2019.xlsx"))
 
 # 2. Items
 items <- c("ch_Indian", "ch_Kashmiri", "ch_Religion", "ch_Occupation")
 
-# 3. Treatment (0-indexed from string `group`)
+# 3. Treatment  
 df <- df %>%
   mutate(
     D_clean = str_squish(group),

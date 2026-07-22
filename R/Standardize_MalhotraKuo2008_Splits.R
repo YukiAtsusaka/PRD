@@ -3,20 +3,6 @@ library(here)
 library(readr)
 library(haven)
 
-# Malhotra & Kuo 2008 (JoP) — "Attributing Blame: The Public's Response to
-# Hurricane Katrina"
-#
-# PAIRWISE SPLITS of the 4-arm `cond` cue experiment (3 files).
-# Sibling of the original 4-arm file `malhotra-kuo-2008.csv` (kept).
-#
-# Original cond -> treat (after `- 1L`):
-#   treat = 0  Control (names only)
-#   treat = 1  + Public office (e.g. "Louisiana Governor Kathleen Blanco")
-#   treat = 2  + Political party (e.g. "Kathleen Blanco (Democrat)")
-#   treat = 3  + Both office AND party
-#
-# Each split pairs the control (0) against ONE cue treatment, relabeled to 1.
-
 # 1. Load raw
 df <- read_sav(here("raw", "Katrina_Blame_Data.sav"))
 
@@ -26,7 +12,7 @@ items        <- c("ch_blanco", "ch_brown", "ch_bush", "ch_chertoff",
                   "ch_landrieu", "ch_nagin", "ch_vitter")
 stopifnot(all(rank_columns %in% names(df)))
 
-# 3. Treatment (0-indexed cue condition)
+# 3. Treatment  
 df <- df %>% mutate(treat_cue = as.integer(cond) - 1L)
 
 # 4. Rename + recode rank columns (negatives -> NA)

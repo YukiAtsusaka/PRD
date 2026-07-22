@@ -3,18 +3,10 @@ library(here)
 library(readr)
 library(haven)
 
-# Corstange & York 2018, AJPS: "Sectarian Framing in the Syrian Civil War"
-# Syrian refugees in Lebanon ranked top-3 from 6 factions by sympathy
-# Q28a-Q28f: rank each faction received (1=most, 2=second, 3=third, NA=not in top 3)
-# Items: FSA, Syrian government, Syrian Islamist groups, foreign Islamist groups,
-#        Kurdish groups, Hizballah
-# Treatment: framing experiment (8 conditions)
-
 # 1. Load
 df <- read_sav(here("raw", "syria-refugees-sept-10-2015_framing.sav"))
 
 # 2. Items
-# 6 factions — Q28a-Q28f are in item-rank format (value = rank assigned, 1-3)
 items <- c("ch_freesyrianarmy", "ch_syriangovernment", "ch_syrianislamistgroups",
            "ch_foreignislamistgroups", "ch_kurdishgroups", "ch_hizbalah")
 
@@ -26,16 +18,7 @@ stopifnot(all(rank_columns %in% names(df)))
 df <- df %>%
   rename_with(~ items, all_of(rank_columns))
 
-# 4. Treatment: Q30 is the 12-level random framing assignment, collapsed to
-# 8 analytical conditions per the paper (framing-ajps-cleandat.R:439-449):
-#   1 ctrl                -> 0 control
-#   2 smany, 3 sfew       -> 1 sect
-#   4 dem                 -> 2 dem
-#   5 rel                 -> 3 secular
-#   6 for                 -> 4 foreign
-#   7 svd, 10 dvs         -> 5 sect-vs-dem
-#   8 svr, 11 rvs         -> 6 sect-vs-secular
-#   9 svf, 12 fvs         -> 7 sect-vs-foreign
+# 4. Treatment
 q30_int <- as.integer(df$Q30)
 df$treat <- dplyr::case_when(
   q30_int == 1L                ~ 0L,

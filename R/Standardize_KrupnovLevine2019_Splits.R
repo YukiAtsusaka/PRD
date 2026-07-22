@@ -3,28 +3,6 @@ library(here)
 library(readr)
 library(haven)
 
-# Krupnikov & Levine 2019 (JoP) — "Political Issues, Evidence, and Citizen
-# Engagement: The Case of Unequal Access to Affordable Health Care"
-#
-# PAIRWISE SPLITS of the 5-arm evidence-format experiment (4 files).
-# Sibling of the original 5-arm file `krupnov-levine-2019.csv` (kept).
-#
-# Treatment manipulated which form of evidence respondents saw about health
-# care inequality, then asked them to rank 6 policy issues (health, inequality,
-# federal debt, unemployment, immigration, ethics) by importance. Verified
-# from SSI.do (`prtest health_rank1 if (healthtreat==1 | healthtreat==2),
-# by(healthtreat)` etc.) that the ranking IS the post-treatment outcome.
-#
-# Original healthtreat -> treat (after `- 1L`):
-#   treat = 0  Control (no evidence about health care)
-#   treat = 1  Human-interest story (sympathetic individual case)
-#   treat = 2  Statistics as percentages
-#   treat = 3  Statistics as raw counts (N)
-#   treat = 4  Statistics as N with denominator
-#
-# CAVEAT: only health_rank and ineq_rank are in the public data; the other
-# 4 items (federal debt, unemployment, immigration, ethics) are NA columns.
-
 # 1. Load raw
 df <- read_dta(here("raw", "KrupnovLevine2019.dta"))
 

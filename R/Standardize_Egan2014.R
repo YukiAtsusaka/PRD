@@ -4,44 +4,10 @@ library(here)
 library(readr)
 library(haven)
 
-# Egan, Patrick J. 2014.
-# "'Do Something' Politics and Double-Peaked Policy Preferences."
-# Journal of Politics 76(2): 333-49.
-#
-# Egan uses CCES modules from THREE WAVES (2010, 2011, 2012) covering
-# 10 policy issues. For each issue, respondents drag-and-dropped three
-# policy options into ranks 1-3:
-#   L = Leftist option (e.g., increase spending / nationalize / liberal frame)
-#   R = Rightist option (e.g., cut spending / privatize / conservative frame)
-#   Q = Status-quo option ("middle")
-#
-# Treatment structure across the waves:
-#   2010: Per-issue binary "do something" framing experiment (the motivating
-#         experiment for the double-peaked-preferences hypothesis).
-#         `treat = 0/1` per issue (control / do-something).
-#   2011: Rankings only -- no experimental treatment for the ranking task.
-#         `treat = 0` for all 2011 rows. (The `mbcXXX_treat` variables in
-#         the raw data are for sub-experiments Egan does not use in the
-#         ranking analyses; see table2.do, which does pure descriptive
-#         analysis of the 2011 rankings.)
-#   2012: Rankings only -- no experimental treatment for the ranking task.
-#         `treat = 0` for all 2012 rows. (`NYU365_treat` is a randomized
-#         wording experiment on a different question, not the rankings.)
-#
-# Wave-specific issues:
-#   2010 (4 issues): educ, guan, imm, oil
-#   2011 (4 issues): health, unemp, ab, guns
-#   2012 (2 issues): foreign, debt
-#
-# Rank encoding (consistent across all 3 waves): the do-file's "LQR" label
-# decodes the categorical *_rank (1-6) into the three options' positions:
-#   1 = L>R>Q   2 = R>L>Q   3 = L>Q>R   4 = R>Q>L   5 = Q>R>L   6 = Q>L>R
-
-# 1. Load all 3 modified CCES files from the replication archive
-pkg <- "raw"
-d10 <- read_dta(here(pkg, "Egan2014_CCES2010.dta"))
-d11 <- read_dta(here(pkg, "Egan2014_CCES2011.dta"))
-d12 <- read_dta(here(pkg, "Egan2014_CCES2012.dta"))
+# 1. Load  
+d10 <- read_dta(here("raw", "Egan2014_CCES2010.dta"))
+d11 <- read_dta(here("raw", "Egan2014_CCES2011.dta"))
+d12 <- read_dta(here("raw", "Egan2014_CCES2012.dta"))
 
 # 2. Items
 items <- c("ch_leftist", "ch_rightist", "ch_quo")
